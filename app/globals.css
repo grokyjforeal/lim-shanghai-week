@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+:root {
+  --paper: #f3eee6;
+  --paper-2: #e7e0d4;
+  --ink: #1c1612;
+  --muted: #6d6258;
+  --line: #d5cbbd;
+  --cinnabar: #8c2f24;
+  --bronze: #8a5a32;
+  --river: #1d3944;
+  --river-soft: #d5e1e4;
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-paper-2: var(--paper-2);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-cinnabar: var(--cinnabar);
+  --color-bronze: var(--bronze);
+  --color-river: var(--river);
+  --color-river-soft: var(--river-soft);
+  --font-sans: var(--font-outfit), "Songti SC", "Noto Serif SC", serif;
+  --font-serif: var(--font-newsreader), "Songti SC", "Noto Serif SC", serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-outfit), "Songti SC", sans-serif;
+}
+
+::selection {
+  background: #e7c7bf;
+  color: var(--ink);
+}
+
+.route-draw {
+  stroke-dasharray: 520;
+  stroke-dashoffset: 520;
+  animation: draw 1.05s ease forwards;
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.pin-live {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: pulse 2.4s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.45;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .route-draw,
+  .pin-live {
+    animation: none;
+    stroke-dashoffset: 0;
+  }
+}
+
+.day-rail {
+  scrollbar-width: none;
+}
+
+.day-rail::-webkit-scrollbar {
+  display: none;
+}
