@@ -63,6 +63,7 @@ export const days: Day[] = [
         kind: "rest",
         title: c("Check in and rest", "入住，休息"),
         place: hotel.place,
+        photo: "intercity",
         note: c(
           "Check-in opens 14:00. Give the front desk all four passports for registration. Nap, shower, unpack.",
           "14:00 起可入住。四本护照都要交给前台登记。睡一会儿，洗澡，整理行李。",
@@ -340,7 +341,7 @@ export const days: Day[] = [
         kind: "coffee",
         title: c("Coffee by the lake: Furishine", "湖边咖啡：富日山咖啡"),
         place: { zh: "Furishine Coffee 富日山咖啡(西湖店)", addr: "杭州市西湖区北山街65号1幢" },
-        photo: "broken",
+        photo: "furishine",
         note: c(
           "Outdoor seats under big trees right on the water, at the bend where Gushan Road meets Beishan Street. It is on the cab route to Huagang, three minutes from lunch.",
           "大树底下的露天座位，紧贴着湖水，就在孤山路和北山街交会的转弯处。正好在去花港的路上，离午餐三分钟车程。",
@@ -1024,6 +1025,7 @@ export const days: Day[] = [
         kind: "coffee",
         title: c("Coffee: Capra Ibex", "咖啡：羍市"),
         place: { zh: "CAPRAIBEX COFFEE 羍市(菉葭巷店)", addr: "苏州市姑苏区菉葭巷" },
+        photo: "capra",
         note: c(
           "A neighbourhood coffee bar on a side alley off Pingjiang Road, in an old house with a vine-covered front. One reviewer called it the Suzhou café to go to: good coffee with the feel of the lanes around it.",
           "平江路旁小巷里的街坊咖啡馆，开在爬满藤蔓的老房子一楼。有评价说这是「苏州必去咖啡馆」：好喝，又有周围巷子的市井味。",
@@ -1132,6 +1134,7 @@ export const days: Day[] = [
         kind: "coffee",
         title: c("Coffee before the gates: Manner, Disneytown", "入园前的咖啡：迪士尼小镇 Manner"),
         place: { zh: "Manner Coffee(迪士尼小镇店)", addr: "上海市浦东新区申迪西路 迪士尼小镇" },
+        photo: "manner-disney",
         note: c(
           "Disneytown, the shopping street beside the park entrance, has a Manner that opens at 07:30. It is the best coffee you will get all day and a third of the price of anything inside.",
           "乐园入口旁的迪士尼小镇有一家 Manner，07:30 开门。这是今天能喝到最好的咖啡，价钱只有园内的三分之一。",
@@ -1240,6 +1243,7 @@ export const days: Day[] = [
         time: "11:30",
         kind: "eat",
         title: c("Early lunch", "早点吃午饭"),
+        photo: "barbossa",
         note: c(
           "Eat at 11:30 before the rush. Barbossa's Bounty in Treasure Cove seats you inside the Pirates ride setting. Order by phone in the app to skip the counter queue.",
           "11:30 吃，避开高峰。宝藏湾的「巴波萨烧烤」可以坐在海盗场景里吃。用 App 手机点餐，不用排柜台。",
