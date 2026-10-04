@@ -993,4 +993,68 @@ export const photos: Record<string, Photo[]> = {
    "href": "https://commons.wikimedia.org/wiki/File:Red_braised_pork_belly_%E7%BA%A2%E7%83%A7%E8%82%89_h%C3%B3ngsh%C4%81or%C3%B2u_23_January_2025_Filipinas4.jpg"
   }
  ],
+ "furishine": [
+  {
+   "src": "/photos/furishine.jpg",
+   "by": "Jesse Khor",
+   "license": "Trip.com",
+   "href": "https://hk.trip.com/moments/detail/west-lake-2026903-143804516/"
+  },
+  {
+   "src": "/photos/furishine-2.jpg",
+   "by": "Jesse Khor",
+   "license": "Trip.com",
+   "href": "https://hk.trip.com/moments/detail/west-lake-2026903-143804516/"
+  }
+ ],
+ "capra": [
+  {
+   "src": "/photos/capra.jpg",
+   "by": "刘振",
+   "license": "好玩苏州",
+   "href": "http://www.ourjiangsu.com/a/20220829/1661744675834.shtml"
+  },
+  {
+   "src": "/photos/capra-2.jpg",
+   "by": "刘振",
+   "license": "好玩苏州",
+   "href": "http://www.ourjiangsu.com/a/20220829/1661744675834.shtml"
+  }
+ ],
+ "manner-disney": [
+  {
+   "src": "/photos/manner-disney.jpg",
+   "by": "Shanghai Disney Resort",
+   "license": "official photo",
+   "href": "https://www.shanghaidisneyresort.com/dining/disneytown/manner-coffee/"
+  }
+ ],
+ "barbossa": [
+  {
+   "src": "/photos/barbossa.jpg",
+   "by": "Jeremy Thompson",
+   "license": "CC BY 2.0",
+   "href": "https://commons.wikimedia.org/wiki/File:Barbossa%27s_Bounty_(29586831816).jpg"
+  },
+  {
+   "src": "/photos/barbossa-2.jpg",
+   "by": "MNXANL",
+   "license": "CC BY-SA 4.0",
+   "href": "https://commons.wikimedia.org/wiki/File:201806_Dining_Area_of_Barbossa%E2%80%99s_Bounty_viewed_from_Pirates_of_the_Caribbean_Battle_for_the_Sunken_Treasure.jpg"
+  }
+ ],
+ "intercity": [
+  {
+   "src": "/photos/intercity.jpg",
+   "by": "IntercityHotel Shanghai Xujiahui",
+   "license": "Ctrip",
+   "href": "https://hotels.ctrip.com/hotels/123245486.html"
+  },
+  {
+   "src": "/photos/intercity-2.jpg",
+   "by": "_WeChat258962",
+   "license": "Ctrip",
+   "href": "https://hotels.ctrip.com/hotels/123245486.html"
+  }
+ ],
 };
