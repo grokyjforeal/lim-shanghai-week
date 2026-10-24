@@ -13,8 +13,8 @@ const ui = {
   kicker: { en: "Four adults, one hotel, two trains", zh: "四个大人，一家酒店，两趟火车" },
   hero: { en: "Seven days from Xujiahui.", zh: "从徐家汇出发的七天。" },
   lede: {
-    en: "Hangzhou is the canal. Suzhou is the old-town gardens in the rain. Saturday stays on the Bund, because that is Chee Onn's birthday.",
-    zh: "杭州只看运河。苏州是雨里的老城园林。周六留在外滩，因为那是 Chee Onn 的生日。",
+    en: "Hangzhou is Hubin in the rain. Suzhou is the old-town gardens in the rain. Saturday is Chee Onn's birthday, from Wukang Road to the river boat.",
+    zh: "杭州是雨里的湖滨。苏州是雨里的老城园林。周六是 Chee Onn 的生日，从武康路到江上的船。",
   },
   base: { en: "Base", zh: "住" },
   checkIn: { en: "Check in", zh: "入住" },

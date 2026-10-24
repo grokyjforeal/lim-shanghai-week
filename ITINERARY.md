@@ -4,7 +4,7 @@ Four adults: Jing Xuan Lim, Jing Yao Lim (born 15 August 1997), Wai Koon Lee (bo
 
 They sleep every night at IntercityHotel Shanghai Xujiahui, Building 1, No. 1515 Zhongshan West Road, Xuhui. The booked room on file here is one Intercity King Room, named guests Wai Koon Lee and Chee Onn Lim, maximum two adults. A second room for Jing Xuan and Jing Yao is booked. Check-in is after 14:00 on 22 October. Checkout is before 12:00 on 28 October. No meals are included. Confirmation numbers, the second room details, and the exact train times were not pasted into these notes, so they are not invented here. The week is also on the site in this folder.
 
-The shape of the week is a Xujiahui base, two high-speed day trips from Hongqiao, and three Shanghai days that each have one easy classic and one thing that is actually on in late October 2026. Thursday 22 October is the landing day: Pudong at 12:30, then the hotel, then dinner at Renheguan on Zhaojiabang Road, three metro stops east. Friday 23 October is Hangzhou's canal, for a museum show that runs through 31 December 2026, with lunch on Xiaohe Straight Street. Saturday 24 October is Chee Onn's birthday on the Bund: a free exhibition that opens on 22 October at Rockbund Art Museum, a short sit on the embankment, and one seated dinner. Sunday 25 October is Suzhou old town in the rain. The day is the Humble Administrator's Garden and a short walk on Pingjiang Road, with no museums. Monday 26 October is Zhangyuan in Jing'an, whose east section opened on 30 June 2026. Tuesday 27 October is the West Bund, for "Computer Worlds," open that day and closed on Mondays. Wednesday 28 October is only the airport. A 13:30 Pudong departure means being in Terminal 1 by 10:30, and leaving the hotel at 08:00 by taxi.
+The shape of the week is a Xujiahui base, two high-speed day trips from Hongqiao, and three Shanghai days that each have one easy classic and one thing that is actually on in late October 2026. Thursday 22 October is the landing day: Pudong at 12:30, then the hotel, then dinner at Renheguan on Zhaojiabang Road, three metro stops east. Friday 23 October is Hangzhou in the rain. Lunch is 绿茶 at in77, with a short umbrella walk on Hubin, and the return is G238 at 17:37. Saturday 24 October is Chee Onn's birthday. Breakfast is 来来小笼包, the free walk is Wukang Road, dinner is Ren He Guan, then the Shiliupu night cruise, Yu Garden lights, and the Bund. Sunday 25 October is Suzhou old town in the rain. The day is the Humble Administrator's Garden and a short walk on Pingjiang Road, with no museums. Monday 26 October is Zhangyuan in Jing'an, whose east section opened on 30 June 2026. Tuesday 27 October is the West Bund, for "Computer Worlds," open that day and closed on Mondays. Wednesday 28 October is only the airport. A 13:30 Pudong departure means being in Terminal 1 by 10:30, and leaving the hotel at 08:00 by taxi.
 
 Sources for the week were checked on 3 October 2026. The Sunday old-town map pins were placed from OpenStreetMap on 24 October 2026. Where a clock time, price, or opening hour is not verified for these exact dates, the text says so.
 
@@ -24,55 +24,39 @@ How to get there once you have slept a little: from Yishan Road, Metro Line 9 to
 
 Skip the Bund, Zhangyuan, Yu Garden, and any night market tonight. The landing clock does not support them. I also found no night market with published dates covering 22 to 28 October 2026. The canal and osmanthus markets in Hangzhou that showed up in the search had already ended with the National Day holiday.
 
-## Friday 23 October: Hangzhou, one canal district
+## Friday 23 October: Hangzhou, Hubin in the rain
 
-Sleep at the Xujiahui hotel. Leave the hotel at 08:00.
+Sleep at the Xujiahui hotel. Leave the hotel at 08:00. Pack umbrellas.
 
-Hongqiao Railway Station is the right Shanghai station for this day. It is the station with the frequent direct high-speed trains to Hangzhou East, and Hangzhou East is the end that connects to the canal by metro. Shanghai Railway Station is a simpler ride from Xujiahui, Line 9 one stop to Xujiahui and then Line 1, but it has fewer fast trains to Hangzhou East. Shanghai South is closer to the hotel, about 4 to 5 km on hotel listings, and it is the wrong end: those trains more often serve slower trips or Hangzhou South, which is across the river from the canal. Use Hongqiao for both day trips so the family learns one station.
+Hongqiao Railway Station is still the Shanghai station for this day. The door-to-door metro is the same as before. Walk to Yishan Road, about 4 minutes if the hotel text is right. Metro Line 3 or Line 4 one stop to Hongqiao Road, then Metro Line 10 eight stops to Hongqiao Railway Station. A third-party planner puts that ride at about 31 minutes. Being at Hongqiao around 09:00 to 09:30 is a reading of those figures, not a measured 23 October trip.
 
-Door to door from the hotel: walk to Yishan Road Station, about 4 minutes if the hotel text is right. Take Metro Line 3 or Line 4 one stop to Hongqiao Road (direction Jiangyang North Road on Line 3, or the Line 4 train whose next stop is Hongqiao Road). Change to Metro Line 10 toward Hongqiao Railway Station, eight stops. A third-party planner puts that ride at about 31 minutes and 4 yuan, with a transfer walk of about 260 meters. Add the hotel walk, the transfer, and time to reach the platform. Being at Hongqiao around 09:00 to 09:30 is a realistic reading of those figures. It is not a measured 23 October trip.
+The morning train is the one in the booking. It is not reprinted here. A timetable aggregator checked on 3 October 2026 shows direct G trains from Shanghai Hongqiao to Hangzhou East commonly listed at about 45 minutes, with a published full second-class fare often shown at 87 yuan. Those rows are the pattern, not this ticket.
 
-The exact 23 October train is in the booking, so it is not reprinted here. A timetable aggregator checked on 3 October 2026 shows direct G trains from Shanghai Hongqiao to Hangzhou East commonly listed at about 45 minutes, with a published full second-class fare often shown at 87 yuan. Those rows are the pattern, not a substitute for the booked departure. A morning train that reaches Hangzhou East late morning fits the museum hours.
+In Hangzhou the day is Hubin and in77, in the rain. A metro line from Hangzhou East to that mall was not in the notes, so none is printed. Do not ride out to the canal.
 
-In Hangzhou, the day stays in Gongshu, on the Grand Canal. From Hangzhou East, take Metro Line 1 toward Xianghu and change at Datieguan to Metro Line 5 toward Nanhudong. Get off at Gongchenqiao East. The museum's own note says to walk along Quzhou Street to the canal plaza. A 2024 local transport note says Exit B and about 500 meters. If the exit signs differ, follow the plaza. I do not have an official minute count for this metro ride, so I am not printing one.
+Lunch is 绿茶, in77, block C2, 3rd floor. Hours and a menu price were not in the notes. If that room is full, stay inside the mall and sit at the next table. Lou Wai Lou is not the lunch.
 
-The current reason to be here is the China Grand Canal Museum, 1 Canal Cultural Plaza, Gongshu. The standing hours on the museum site are Tuesday to Sunday, 09:00 to 16:30, last entry 16:00, closed Monday, free. Friday 23 October is an open day. On 25 September 2026 the local paper opened "运博20年 何以动人," a 20th-anniversary show in the second-floor temporary gallery, and said it runs through 31 December 2026. That show is the stop. Give it about 90 minutes, then sit down.
+After lunch, a short umbrella walk on Hubin for a look at the lake, then back into in77. This is not a loop of West Lake. No boat.
 
-The one classic is Gongchen Bridge, which stands beside the museum. Look at it from the plaza. There is no need to turn it into a climb.
+The cab from in77 or Hubin leaves no later than 16:15, for Hangzhou East. The return is G238 at 17:37. An arrival time in Shanghai is not printed here. From Hongqiao, the same metro home.
 
-Lunch is a seated meal on Xiaohe Straight Street, the canal neighborhood north of the bridge, in the same district. I did not verify a single restaurant's hours for 23 October 2026, so choose a place with chairs by the water when you arrive. Eat before anyone is tired.
+Skip the canal museum, Gongchen Bridge, and Xiaohe Straight Street. They are a different district. Skip the boat and Lou Wai Lou. Skip Huagang and Leifeng. Skip a longer West Lake loop, Lingyin, Longjing, Meijiawu, Longwu, and Wuzhen.
 
-On the same waterside walk, the China Grand Canal Copper Culture Art Center opened under Qinjian Bridge in mid-August 2026. The Gongshu government notice describes it as a new copper-art space and does not publish hours. Step in if the door is open. If it is shut, the day does not change.
+## Saturday 24 October: Chee Onn's birthday, Wukang Road and the river
 
-Aim to leave the canal by about 15:30 and take the booked Hangzhou East to Shanghai Hongqiao train in the late afternoon. Be back at the hotel for a quiet night.
+Sleep at the Xujiahui hotel. Meet in the lobby at 10:00.
 
-Skip these, and why:
+The first ride is a cab to 来来小笼包 for breakfast. The shop address is not in these notes, so none is printed. Tell the driver the name and confirm the branch before you sit.
 
-- West Lake, Lingyin, Longjing, Meijiawu, and Longwu. They are a second district, and Longwu is part of the packaged Jiangnan day the family already turned down.
-- Wuzhen. The direct Hongqiao to Hangzhou East train does not drop you in the water town. Wuzhen sits off a different station, then needs another local ride. It is the centerpiece of the packaged tour, and adding it breaks this day.
-- The Xiaohe Park "tank" market and Chiharu Shiota show. Published dates run through 11 October 2026. They are over before you arrive.
-- The Tianmuli osmanthus fair. Published dates are 1 to 5 October 2026 only. I also did not find a verified osmanthus forecast for 23 October 2026, so this plan does not promise blossoms.
-- The other National Day canal markets around Dadou Road and Canal Tiandi. The notices I found end on 7 October 2026.
+Then a cab to Wukang Road, 武康路. The walk is free and easy. Lunch is wherever you can sit. No midday restaurant is booked.
 
-## Saturday 24 October: Chee Onn's birthday, Bund and one new show
+Meet at about 17:00 for dinner at Ren He Guan, 人和馆, the Zhaojiabang Road branch at 407 Zhaojiabang Road, Xuhui. This is the same Xuhui room as Thursday, the one already in these notes. Michelin lists the phone as +86 21 6403 0731. The Thursday listing gave evening hours of 17:00 to 21:30. Saturday hours were not checked on their own, so confirm the table. From Yishan Road, Metro Line 9 toward Century Avenue is three stops to Jiashan Road, and Exit 5 is about 230 meters from the door.
 
-Sleep at the Xujiahui hotel. Leave at 10:15.
+Then the boat for mom. It is the official 精华游 night cruise from Shiliupu, 十六铺. About 45 to 50 minutes, past the Bund and Lujiazui. Aim for about 19:00 to 19:30. Peak fare is 150 yuan. Age 70 and over is half price with an ID. Wai Koon is 61, so the half fare does not apply on age alone. Book ahead on the WeChat account 浦江游览集团, or at the pier. Saturday is a peak night. Tickets are real-name, so bring IDs. Earlier notes put ticket exchange at about 17:00 to 20:00, at 551 Zhongshan East No. 2 Road, 中山东二路551号.
 
-This is the nicer meal, and it is not a march. One neighborhood: the Bund waterfront and the streets just behind it.
+After the boat, Yu Garden lights, then the Bund at night, then a cab home. A Yu Garden ticket price and closing time were not in the notes. If the gate is shut, go on to the Bund. The Bund stop is a look at the river, not a Nanjing Road shop march.
 
-From Yishan Road, take Metro Line 3 or Line 4 to Zhongshan Park (the northbound train, via Hongqiao Road and Yan'an West Road). Change to Metro Line 2 toward Pudong Airport. Ride to East Nanjing Road. Rockbund Art Museum says it is a 10-minute walk from Exit 6. Address: 20 Huqiu Road, Huangpu. The main entrance is the museum plaza just east of Huqiu Road. I do not have an official minute total for the metro ride, which is why the hotel leave time has slack in it.
-
-The new stop is "Kandis Williams: A Cave" at Rockbund Art Museum, dated 22 October 2026 to 21 February 2027 on the museum's exhibition page. A direct open of that page failed once on 3 October 2026, so the museum page is worth a glance before Saturday. The visit page is clear on hours: Wednesday to Sunday 11:00 to 19:00, last entry 18:30. Tuesday is a member day from 12:00. Monday is closed. Saturday is a normal public day. Entry has been free since 2 May 2025. Weekends can use a time slot in the museum's WeChat mini program for priority entry, or the queue. Opening week will be busier than a random Saturday. The building has an elevator to every floor and wheelchairs at the desk. Stay long enough to see the show, then leave. You do not need to close the museum.
-
-The one classic is a short sit on the Bund embankment, a few minutes from the museum. Watch the river. Skip the Nanjing Road shopping walk.
-
-The birthday dinner is Le Reflet, 2nd floor, Broadway Mansions, 20 North Suzhou Road, just north of Waibaidu Bridge. A Hongkou news report dated 16 June 2026 says the restaurant opened that day. It serves Tuesday to Sunday, 18:00 to 22:00, and is closed Monday. The published phone is 021-63579880. A September 2026 food column describes a modern French menu using local ingredients, including hairy crab, and both a la carte and a chef's tasting menu. A diner note dated 6 August 2026 describes a meal there. The Broadway Mansions catering page, checked the same day, still does not list Le Reflet. The table is booked with the rest of the week. Order a la carte. The tasting menu is the version that turns dinner into a long night, and this day is not that. Plan to be done around 20:00 and ride Line 2 back.
-
-If Le Reflet cannot take four, the fallback in the same building is Huangpu Xuan, which the hotel's own catering page still lists as its Shanghainese and Huaiyang room. Hours for Huangpu Xuan were not on that page. Ask the building before you leave the museum. Either way, dinner stays north of the bridge, in this same stretch of river.
-
-Come home on Line 2 to Zhongshan Park, then Line 3 or Line 4 back to Yishan Road. Evening service on Line 2 runs late enough for a 20:00 finish. I am not quoting a last-train clock because the published tables move.
-
-Skip Yu Garden, Tianzifang, and a Bund-to-Nanjing-Road loop. They add a second walk on a birthday. Also skip Rockbund on any other day this week: Monday the museum is closed, Tuesday is members-only on the published hours, Wednesday you are at the airport, and Thursday is the landing day.
+Skip Rockbund Art Museum and the Kandis Williams show. Skip Le Reflet and Huangpu Xuan. Skip Tianzifang.
 
 ## Sunday 25 October: Suzhou old town, gardens in the rain
 
@@ -144,10 +128,10 @@ What the notes still do not contain:
 
 - The second room's name, rate, and confirmation. The king room on file is for Wai Koon Lee and Chee Onn Lim only, maximum two adults. Jing Xuan and Jing Yao are in a second booked room.
 - An insurance file for Jing Xuan was not in the notes. The other three were not described either.
-- The exact Hongqiao train numbers for 23 and 25 October. The timetable pattern is in the day sections. The booked departures are the ones to ride.
+- The morning Hongqiao train on 23 October, and the Suzhou trains on 25 October. The Friday return is G238, Hangzhou East at 17:37. The other booked departures are the ones to ride, and they are not reprinted here.
 - Hours and the ticket price at the Humble Administrator's Garden. They are not in these notes. Book on 君到苏州 or 苏州园林 and read both there. The old Suzhou MoCA Sunday price is no longer a stop on this day.
 - The West Bund ticket price for Computer Worlds. It was not on the exhibition page.
-- Whether the canal museum still requires a real-name slot. It was required in a 2023 notice and not confirmed as lifted for October 2026. Entry is free on the museum's visitor page.
+- The canal museum's reservation rule. It is not Friday's plan anymore. The old question was a 2023 real-name notice that the visitor page never confirmed as lifted.
 - Whether the hotel will hold bags before 14:00 on 22 October. That was not in the published rules.
 
 ## Sources
@@ -174,9 +158,9 @@ Renheguan. Michelin, address, phone, family friendly: https://guide.michelin.com
 
 Canal museum hours: https://www.canal-museum.cn/info/vistor_info 2023 reservation notice: https://www.canal-museum.cn/news/1400 Anniversary show, 25 September 2026, through 31 December 2026: https://hznews.hangzhou.com.cn/chengshi/content/2026-09/25/content_9316929.htm Copper center, Gongshu government, 17 August 2026, no hours: https://www.gongshu.gov.cn/col/col1228917/art/2026/art_a8ad5635db80475e987627096dc059a1.html Markets that had already ended: Xiaohe Park through 11 October 2026, http://www.gongshu.gov.cn/col/col1228925/art/2026/art_f8116f70e6a14f54b1006d6222adfee2.html and https://feng.ifeng.com/c/8wqD3KmAJm4 Tianmuli osmanthus fair, 1 to 5 October 2026: https://www.sohu.com/a/1082685056_121627717
 
-Rockbund hours, free entry, weekend slot, 10-minute walk from East Nanjing Road Exit 6: https://www.rockbundartmuseum.org/visit Exhibition dates as indexed from https://www.rockbundartmuseum.org/exhibition/kandis-williams-a-cave
+Rockbund and Le Reflet are no longer Saturday. The old pages, kept only so the drop is sourced: https://www.rockbundartmuseum.org/visit and https://www.rockbundartmuseum.org/exhibition/kandis-williams-a-cave
 
-Le Reflet, address and Tuesday to Sunday 18:00 to 22:00: https://c.m.163.com/news/a/KVIFRE5R0514A3B5.html September 2026 note: https://rachelgouk.com/the-shanghai-scoop-food-drink-news-september-2026/ Broadway Mansions catering page, which still lists Huangpu Xuan and does not list Le Reflet: http://www.broadwaymansions.com/en/restaurant/
+Le Reflet is not the birthday dinner. Old opening note: https://c.m.163.com/news/a/KVIFRE5R0514A3B5.html Broadway Mansions catering page: http://www.broadwaymansions.com/en/restaurant/
 
 Zhangyuan east section, opened 30 June 2026: https://english.shanghai.gov.cn/en-SpecialtyShoppingAreas/20260703/9f135bc472af47448dc7face360a6acc.html Invitation-only show through 26 November 2026: https://www.shobserver.com/sgh/detail?id=4060819
 

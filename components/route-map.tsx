@@ -82,7 +82,7 @@ export function RouteMap({
             {zh ? "上海" : "SHANGHAI"}
           </text>
           <text x="300" y="48" fill="#6d6258" fontSize="11" letterSpacing="2">
-            {zh ? "拱墅运河" : "GONGSHU CANAL"}
+            {zh ? "湖滨" : "HUBIN"}
           </text>
           <path
             d="M300 90 C360 70 430 80 480 150 C500 190 470 250 400 280"
