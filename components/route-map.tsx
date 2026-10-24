@@ -82,7 +82,7 @@ export function RouteMap({
             {zh ? "上海" : "SHANGHAI"}
           </text>
           <text x="300" y="48" fill="#6d6258" fontSize="11" letterSpacing="2">
-            {zh ? "拱墅运河" : "GONGSHU CANAL"}
+            {zh ? "湖滨" : "HUBIN"}
           </text>
           <path
             d="M300 90 C360 70 430 80 480 150 C500 190 470 250 400 280"
@@ -100,17 +100,16 @@ export function RouteMap({
           <text x="36" y="48" fill="#6d6258" fontSize="11" letterSpacing="2">
             {zh ? "上海" : "SHANGHAI"}
           </text>
-          <ellipse
-            cx="430"
-            cy="168"
-            rx="78"
-            ry="46"
-            fill="#d5e1e4"
+          <path
+            d="M300 160 C340 132 390 148 430 168 C458 182 470 220 442 248"
+            fill="none"
             stroke="#1d3944"
-            strokeOpacity="0.25"
+            strokeWidth="8"
+            opacity="0.12"
+            strokeLinecap="round"
           />
-          <text x="368" y="64" fill="#6d6258" fontSize="11" letterSpacing="2">
-            {zh ? "金鸡湖" : "JINJI LAKE"}
+          <text x="300" y="64" fill="#6d6258" fontSize="11" letterSpacing="2">
+            {zh ? "古城" : "OLD TOWN"}
           </text>
         </>
       )}

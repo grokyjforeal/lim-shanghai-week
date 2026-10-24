@@ -16,13 +16,15 @@ import { t, type Lang } from "@/lib/text";
 const ui = {
   title: { en: "Overall route map", zh: "全程路线图" },
   subtitle: {
-    en: "Filter by day. Each day has its own colour. City hops are Didi; Shanghai–Hangzhou and Shanghai–Suzhou are high-speed rail.",
-    zh: "按天筛选。每天一条颜色。市内用滴滴；上海—杭州、上海—苏州是高铁。",
+    en: "Filter by day. Each day has its own colour. City hops are Didi, except Sunday in Suzhou old town, which is metro and a short walk. Shanghai to Hangzhou and Shanghai to Suzhou Station are high-speed rail.",
+    zh: "按天筛选。每天一条颜色。市内用滴滴，周日苏州老城除外，那天是地铁和一小段步行。上海到杭州、上海到苏州站是高铁。",
   },
   filter: { en: "Show", zh: "显示" },
   legend: { en: "Travel times", zh: "行程时间" },
   didi: { en: "Didi cab", zh: "滴滴" },
   hsr: { en: "High-speed train", zh: "高铁" },
+  metro: { en: "Metro", zh: "地铁" },
+  walk: { en: "Walk", zh: "步行" },
   typical: { en: "typical, not booked", zh: "常见时长，未订票" },
   unverified: { en: "not verified on Gaode/Baidu", zh: "未用高德/百度核验" },
   sources: { en: "Map sources", zh: "地图来源" },
@@ -238,11 +240,17 @@ export function OverallRouteMap({ lang }: { lang: Lang }) {
                             {t(from.label, lang)} {t(ui.fromTo, lang)} {t(to.label, lang)}
                           </p>
                           <p className="mt-1 text-muted">
-                            {leg.mode === "hsr" ? t(ui.hsr, lang) : t(ui.didi, lang)}
+                            {leg.mode === "hsr"
+                              ? t(ui.hsr, lang)
+                              : leg.mode === "metro"
+                                ? t(ui.metro, lang)
+                                : leg.mode === "walk"
+                                  ? t(ui.walk, lang)
+                                  : t(ui.didi, lang)}
                             {" · "}
                             <span className="text-ink">{formatMinutes(leg, lang)}</span>
                             {leg.typical ? ` · ${t(ui.typical, lang)}` : ""}
-                            {!leg.verified ? ` · ${t(ui.unverified, lang)}` : ""}
+                            {!leg.verified && leg.mode === "didi" ? ` · ${t(ui.unverified, lang)}` : ""}
                           </p>
                           <a
                             href={leg.sourceUrl}

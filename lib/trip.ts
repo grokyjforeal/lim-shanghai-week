@@ -109,10 +109,14 @@ export const flights = {
 
 export const shanghaiPins: Pin[] = [
   { id: "home", x: 188, y: 286, label: "Xujiahui", zh: "徐家汇", dx: -78, dy: 22 },
+  { id: "lailai", x: 132, y: 248, label: "Lai Lai", zh: "来来", dx: -56, dy: 18 },
+  { id: "wukang", x: 108, y: 168, label: "Wukang Road", zh: "武康路", dx: -8, dy: -16 },
   { id: "renheguan", x: 248, y: 246, label: "Renheguan", zh: "人和馆", dx: 14, dy: -6 },
   { id: "westbund", x: 214, y: 360, label: "West Bund", zh: "西岸", dx: 14, dy: 4 },
   { id: "jingan", x: 268, y: 148, label: "Zhangyuan", zh: "张园", dx: -86, dy: -18 },
   { id: "bund", x: 372, y: 176, label: "The Bund", zh: "外滩", dx: 14, dy: -8 },
+  { id: "shiliupu", x: 430, y: 248, label: "Shiliupu", zh: "十六铺", dx: 12, dy: 16 },
+  { id: "yuyuan", x: 318, y: 318, label: "Yu Garden", zh: "豫园", dx: -72, dy: 14 },
   { id: "reflet", x: 404, y: 118, label: "Le Reflet", zh: "上海大厦", dx: 14, dy: -4 },
   { id: "hongqiao", x: 62, y: 196, label: "Hongqiao", zh: "虹桥", dx: 12, dy: -16 },
   { id: "airport", x: 468, y: 348, label: "Pudong T1", zh: "浦东", dx: -8, dy: 22 },
@@ -120,17 +124,17 @@ export const shanghaiPins: Pin[] = [
 
 export const hangzhouPins: Pin[] = [
   { id: "hongqiao", x: 78, y: 210, label: "Hongqiao", zh: "虹桥", dx: 12, dy: 20 },
-  { id: "hzeast", x: 268, y: 168, label: "Hangzhou East", zh: "杭州东", dx: -20, dy: 26 },
-  { id: "museum", x: 392, y: 118, label: "Canal Museum", zh: "运河博物馆", dx: 12, dy: -8 },
-  { id: "bridge", x: 430, y: 168, label: "Gongchen Bridge", zh: "拱宸桥", dx: 12, dy: 8 },
-  { id: "xiaohe", x: 392, y: 230, label: "Xiaohe Street", zh: "小河直街", dx: 12, dy: 16 },
+  { id: "hzeast", x: 230, y: 168, label: "Hangzhou East", zh: "杭州东", dx: -20, dy: 26 },
+  { id: "in77", x: 360, y: 140, label: "in77", zh: "湖滨银泰", dx: 12, dy: -8 },
+  { id: "hubin", x: 440, y: 220, label: "Hubin", zh: "湖滨", dx: 12, dy: 16 },
 ];
 
 export const suzhouPins: Pin[] = [
   { id: "hongqiao", x: 78, y: 230, label: "Hongqiao", zh: "虹桥", dx: 12, dy: 22 },
-  { id: "sip", x: 286, y: 132, label: "Suzhou Industrial Park", zh: "苏州园区", dx: -36, dy: -22 },
-  { id: "moca", x: 420, y: 188, label: "Suzhou MoCA", zh: "当代美术馆", dx: -40, dy: 28 },
-  { id: "lake", x: 468, y: 150, label: "Jinji Lake", zh: "金鸡湖", dx: 12, dy: -10 },
+  { id: "station", x: 248, y: 196, label: "Suzhou Station", zh: "苏州站", dx: 12, dy: 22 },
+  { id: "garden", x: 348, y: 132, label: "Humble Garden", zh: "拙政园", dx: 12, dy: -16 },
+  { id: "pingjiang", x: 438, y: 214, label: "Pingjiang Road", zh: "平江路", dx: -28, dy: 24 },
+  { id: "couple", x: 392, y: 300, label: "Couple's Garden", zh: "耦园", dx: 12, dy: 18 },
 ];
 
 const photo = (
