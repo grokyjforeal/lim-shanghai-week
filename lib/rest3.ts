@@ -328,8 +328,8 @@ export const sources: { label: Bi; href: string }[] = [
   { label: b("Kandis Williams dates", "坎迪斯·威廉姆斯展期"), href: "https://www.rockbundartmuseum.org/exhibition/kandis-williams-a-cave" },
   { label: b("Le Reflet opening, 16 Jun 2026", "Le Reflet 开业，2026年6月16日"), href: "https://c.m.163.com/news/a/KVIFRE5R0514A3B5.html" },
   { label: b("Zhangyuan east section, 30 Jun 2026", "张园东区，2026年6月30日"), href: "https://english.shanghai.gov.cn/en-SpecialtyShoppingAreas/20260703/9f135bc472af47448dc7face360a6acc.html" },
-  { label: b("Suzhou MoCA visitor guide", "苏州当代美术馆参观指南"), href: "https://www.suzhoumoca.com/en/page/visitor-guide" },
-  { label: b("Suzhou MoCA opening", "苏州当代美术馆开馆"), href: "https://www.sipac.gov.cn/szgyyqenglish/202608MoCA/202608MoCA.shtml" },
+  { label: b("Suzhou Station, OpenStreetMap", "苏州站，OpenStreetMap"), href: "https://www.openstreetmap.org/node/5218876253" },
+  { label: b("Humble Administrator's Garden, OpenStreetMap", "拙政园，OpenStreetMap"), href: "https://www.openstreetmap.org/way/468359738" },
   { label: b("West Bund Museum, Computer Worlds", "西岸美术馆，「计算万千世界」"), href: "https://wbmshanghai.com/en/exhibition/1615-event-computer-worlds/" },
   { label: b("West Bund ticket rules", "西岸美术馆票务"), href: "https://wbmshanghai.com/en/page/Ticket%20Purchase%20Information" },
 ];

@@ -4,7 +4,7 @@ import osrm from "@/lib/osrm-legs.json";
 
 export type PlaceId = keyof typeof osrm.places;
 
-export type TravelMode = "didi" | "hsr";
+export type TravelMode = "didi" | "hsr" | "metro" | "walk";
 
 export type RouteLeg = {
   id: string;
@@ -119,16 +119,28 @@ export const mapPlaces: MapPlace[] = [
     coordSource: b("Wikidata Q23804 / OSM", "维基数据 Q23804 / OSM"),
   },
   {
-    id: "sip",
-    ...osrm.places.sip,
-    label: b("Suzhou Industrial Park station", "苏州园区站"),
-    coordSource: b("Wikidata Q7651043", "维基数据 Q7651043"),
+    id: "szstation",
+    ...osrm.places.szstation,
+    label: b("Suzhou Station", "苏州站"),
+    coordSource: b("OpenStreetMap node 5218876253", "OpenStreetMap 节点 5218876253"),
   },
   {
-    id: "moca",
-    ...osrm.places.moca,
-    label: b("Suzhou MoCA", "苏州当代美术馆"),
-    coordSource: b("OpenStreetMap Nominatim", "OSM Nominatim"),
+    id: "garden",
+    ...osrm.places.garden,
+    label: b("Humble Administrator's Garden", "拙政园"),
+    coordSource: b("OpenStreetMap way 468359738", "OpenStreetMap 路径 468359738"),
+  },
+  {
+    id: "pingjiang",
+    ...osrm.places.pingjiang,
+    label: b("Pingjiang Road", "平江路"),
+    coordSource: b("OpenStreetMap way 840016731", "OpenStreetMap 路径 840016731"),
+  },
+  {
+    id: "couple",
+    ...osrm.places.couple,
+    label: b("Couple's Garden", "耦园"),
+    coordSource: b("OpenStreetMap way 492151336", "OpenStreetMap 路径 492151336"),
   },
   {
     id: "zhangyuan",
@@ -224,6 +236,38 @@ function hsr(
   };
 }
 
+function straight(
+  id: string,
+  dayId: string,
+  dayIndex: number,
+  from: PlaceId,
+  to: PlaceId,
+  mode: "hsr" | "metro" | "walk",
+  sourceUrl: string,
+  sourceLabel: Bi,
+  note: Bi,
+): RouteLeg {
+  const a = placeMap[from];
+  const bPlace = placeMap[to];
+  return {
+    id,
+    dayId,
+    dayIndex,
+    from,
+    to,
+    mode,
+    minutes: null,
+    verified: false,
+    sourceUrl,
+    sourceLabel,
+    note,
+    path: [
+      [a.lat, a.lon],
+      [bPlace.lat, bPlace.lon],
+    ],
+  };
+}
+
 export const routeLegs: RouteLeg[] = [
   didi("thu-1", "thu", 1, "pudong", "hotel"),
   didi("thu-2", "thu", 1, "hotel", "renheguan"),
@@ -271,39 +315,91 @@ export const routeLegs: RouteLeg[] = [
   didi("sat-3", "sat", 3, "broadway", "hotel"),
 
   didi("sun-1", "sun", 4, "hotel", "hongqiao"),
-  hsr(
+  straight(
     "sun-2",
     "sun",
     4,
     "hongqiao",
-    "sip",
-    24,
-    31,
-    "https://www.gaotie.com.cn/lieche/shanghai-suzhouyuanqu.html",
-    b("gaotie.com.cn timetable", "高铁网时刻表"),
+    "szstation",
+    "hsr",
+    "https://www.openstreetmap.org/node/5218876253",
+    b("OpenStreetMap, Suzhou Station", "OpenStreetMap，苏州站"),
     b(
-      "High-speed train to Suzhou Industrial Park station (not Suzhou / Suzhou North). Typical Hongqiao–SIP G trains about 24–31 min (some D trains longer). Not booked.",
-      "高铁到苏州园区站（不是苏州站/苏州北）。虹桥到园区 G 字头常见约 24–31 分钟（部分 D 字头更长）。未订票。",
+      "High-speed train to Suzhou Station, the old-city station, not Suzhou Industrial Park and not Suzhou North. If the ticket still says 园区, rebook. Ride time is not in the notes. The old 24 to 31 min figure was for Industrial Park station.",
+      "高铁到苏州站，老城这一站，不是苏州园区，也不是苏州北。票上如果还是园区，就改签。时长不在笔记里。以前的 24 到 31 分钟是园区站的。",
     ),
   ),
-  didi("sun-3", "sun", 4, "sip", "moca"),
-  didi("sun-4", "sun", 4, "moca", "sip"),
-  hsr(
+  straight(
+    "sun-3",
+    "sun",
+    4,
+    "szstation",
+    "garden",
+    "metro",
+    "https://www.openstreetmap.org/way/468359738",
+    b("OpenStreetMap, Humble Administrator's Garden", "OpenStreetMap，拙政园"),
+    b(
+      "Metro toward 北寺塔 or 拙政园苏博站, then out to the garden. Do not enter the museum. Minutes are not in the notes.",
+      "地铁往北寺塔或拙政园苏博站，出站去拙政园。不要进博物馆。分钟数不在笔记里。",
+    ),
+  ),
+  straight(
+    "sun-4",
+    "sun",
+    4,
+    "garden",
+    "pingjiang",
+    "walk",
+    "https://www.openstreetmap.org/way/840016731",
+    b("OpenStreetMap, Pingjiang Road", "OpenStreetMap，平江路"),
+    b(
+      "Short walk after lunch, from the garden to the north end of Pingjiang Road. Minutes are not in the notes.",
+      "午饭后从拙政园走到平江路北口，只是一小段。分钟数不在笔记里。",
+    ),
+  ),
+  straight(
     "sun-5",
     "sun",
     4,
-    "sip",
-    "hongqiao",
-    24,
-    31,
-    "https://www.gaotie.com.cn/lieche/shanghai-suzhouyuanqu.html",
-    b("gaotie.com.cn timetable", "高铁网时刻表"),
+    "pingjiang",
+    "couple",
+    "walk",
+    "https://www.openstreetmap.org/way/492151336",
+    b("OpenStreetMap, Couple's Garden", "OpenStreetMap，耦园"),
     b(
-      "High-speed train return. Typical 24–31 min. Not booked.",
-      "高铁返程。常见 24–31 分钟。未订票。",
+      "Optional. Couple's Garden only if energy holds. Skip it if anyone is tired or soaked. Not Lion Grove Garden.",
+      "可选。还有力气才去耦园。有人累了或湿透了就跳过。不是狮子林。",
     ),
   ),
-  didi("sun-6", "sun", 4, "hongqiao", "hotel"),
+  straight(
+    "sun-6",
+    "sun",
+    4,
+    "couple",
+    "szstation",
+    "metro",
+    "https://www.openstreetmap.org/node/5218876253",
+    b("OpenStreetMap, Suzhou Station", "OpenStreetMap，苏州站"),
+    b(
+      "Back to Suzhou Station for the afternoon train. If Couple's Garden was skipped, leave from Pingjiang Road. Minutes are not in the notes.",
+      "回苏州站赶下午的火车。如果没去耦园，就从平江路出发。分钟数不在笔记里。",
+    ),
+  ),
+  straight(
+    "sun-7",
+    "sun",
+    4,
+    "szstation",
+    "hongqiao",
+    "hsr",
+    "https://www.openstreetmap.org/node/5218876253",
+    b("OpenStreetMap, Suzhou Station", "OpenStreetMap，苏州站"),
+    b(
+      "Afternoon return to Hongqiao. The booked train is the one to ride. No train number or ride time is printed here.",
+      "下午回虹桥。坐订好的那班。这里不印车次，也不印时长。",
+    ),
+  ),
+  didi("sun-8", "sun", 4, "hongqiao", "hotel"),
 
   didi("mon-1", "mon", 5, "hotel", "zhangyuan"),
   didi("mon-2", "mon", 5, "zhangyuan", "jinganpark"),

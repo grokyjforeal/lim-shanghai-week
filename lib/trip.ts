@@ -128,9 +128,10 @@ export const hangzhouPins: Pin[] = [
 
 export const suzhouPins: Pin[] = [
   { id: "hongqiao", x: 78, y: 230, label: "Hongqiao", zh: "虹桥", dx: 12, dy: 22 },
-  { id: "sip", x: 286, y: 132, label: "Suzhou Industrial Park", zh: "苏州园区", dx: -36, dy: -22 },
-  { id: "moca", x: 420, y: 188, label: "Suzhou MoCA", zh: "当代美术馆", dx: -40, dy: 28 },
-  { id: "lake", x: 468, y: 150, label: "Jinji Lake", zh: "金鸡湖", dx: 12, dy: -10 },
+  { id: "station", x: 248, y: 196, label: "Suzhou Station", zh: "苏州站", dx: 12, dy: 22 },
+  { id: "garden", x: 348, y: 132, label: "Humble Garden", zh: "拙政园", dx: 12, dy: -16 },
+  { id: "pingjiang", x: 438, y: 214, label: "Pingjiang Road", zh: "平江路", dx: -28, dy: 24 },
+  { id: "couple", x: 392, y: 300, label: "Couple's Garden", zh: "耦园", dx: 12, dy: 18 },
 ];
 
 const photo = (
