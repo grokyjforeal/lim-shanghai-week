@@ -196,11 +196,11 @@ export const todos: Todo[] = [
   },
   {
     id: "louwailou",
-    due: "2026-10-20",
-    title: c("Reserve Lou Wai Lou, Hangzhou", "订楼外楼（杭州）"),
+    due: "2026-10-23",
+    title: c("Lunch is 绿茶 at in77", "午饭在 in77 的绿茶"),
     detail: c(
-      "Fri 23 Oct, 12:20, six people, lake-view table. G7349 arrives Hangzhou East at 10:06. Ask the hotel front desk to call for you if the line is in Chinese only.",
-      "10月23日星期五 12:20，六位，看湖的桌。G7349 是 10:06 到杭州东。电话只讲中文的话，请酒店前台帮忙打。",
+      "Fri 23 Oct. 绿茶, in77 block C2, 3rd floor. If that room is full, stay inside in77. Cab to Hangzhou East no later than 16:15 for G238 at 17:37.",
+      "10月23日星期五。绿茶，in77 C区2座 3楼。满了就留在 in77 里。最晚 16:15 打车去杭州东，赶 17:37 的 G238。",
     ),
   },
   {

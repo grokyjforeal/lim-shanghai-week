@@ -167,15 +167,15 @@ export const days: Day[] = [
     date: "2026-10-23",
     weekday: c("Friday", "星期五"),
     label: c("Hangzhou", "杭州"),
-    title: c("West Lake, the easy way", "西湖，轻松走法"),
-    area: c("Hangzhou · West Lake", "杭州 · 西湖"),
+    title: c("Hubin in the rain", "雨里的湖滨"),
+    area: c("Hangzhou · Hubin", "杭州 · 湖滨"),
     summary: c(
-      "West Lake by boat and cab, so the day is mostly sitting: across the water to the island, a classic lunch on the shore, tea by the carp pond. A weekday is the right day for it.",
-      "坐船加打车游西湖，一天大多是坐着的：横穿湖面上岛，在湖边吃一顿经典午餐，到鱼池边喝茶。平日去正合适。",
+      "A short Hangzhou day in the rain. Lunch is 绿茶 inside in77. A short umbrella walk on Hubin for the lake, then back indoors. Cab by 16:15 for G238 at 17:37.",
+      "杭州的雨天，只走短的一段。午饭在 in77 里的绿茶。湖滨撑伞看一眼湖，再回到商场里。16:15 之前打车，赶 17:37 的 G238。",
     ),
     leave: c("Leave hotel 07:45", "07:45 从酒店出发"),
     back: c("Hotel by about 19:15", "约 19:15 回到酒店"),
-    walking: c("About 1.5 km in short flat pieces", "约 1.5 公里，分成几小段平路"),
+    walking: c("A short umbrella walk, then back indoors", "撑伞走一小段，然后回到室内"),
     stops: [
       {
         time: "07:45",
@@ -204,213 +204,32 @@ export const days: Day[] = [
       {
         time: "10:25",
         kind: "cab",
-        title: c("Cab to the Hubin boat pier", "打车到湖滨码头"),
-        place: { zh: "西湖游船 湖滨二公园码头", addr: "杭州市上城区湖滨路二公园" },
+        title: c("Cab to in77", "打车去 in77"),
+        place: { zh: "湖滨银泰 in77", addr: "杭州市上城区湖滨 湖滨银泰 in77" },
         note: c(
-          "Follow the taxi signs down to the basement rank at Hangzhou East. The pier is on the city side of the lake, a few steps from where the cab stops.",
-          "在杭州东站跟着出租车标志下到地下候车区。码头在西湖靠市区的一侧，下车走几步就到。",
+          "G7349 arrives Hangzhou East at 10:06. This rain day stays at Hubin and in77. Umbrellas out when you leave the station. A minute count for this hop was not in the notes.",
+          "G7349 是 10:06 到杭州东。这个雨天只待在湖滨和 in77。出站就撑伞。这段的分钟数不在笔记里。",
         ),
-        cost: c("25–35 min · about ¥40", "25–35 分钟 · 约 40 元"),
-        red: {
-          q: "西湖一日游 带父母",
-          tip: c(
-            "Posts say to take a cab rather than the metro. It is about ¥30 and saves a long walk from the station.",
-            "笔记都建议打车别坐地铁，大约 30 元，省掉出站后一大段路。",
-          ),
-        },
       },
       {
-        time: "11:00",
-        kind: "boat",
-        title: c("Boat to Three Pools Mirroring the Moon", "坐船上三潭印月"),
-        place: { zh: "西湖游船 湖滨二公园码头", addr: "杭州市上城区湖滨路二公园" },
-        photo: "santan",
-        note: c(
-          "The boat does the walking today. It crosses the open lake to the island in the middle, whose three small stone pagodas are the picture on the back of the ¥1 note.",
-          "今天让船替我们走路。船横穿湖面到湖心岛，岛上三座小石塔就是一元纸币背面的图案。",
-        ),
-        cost: c("About ¥70 per person, island entry included", "每人约 70 元，含上岛"),
-        guide: {
-          why: c(
-            "The lake is best seen from the water, and everyone stays seated together. You pass the Broken Bridge and the Bai Causeway on the way without walking them.",
-            "西湖要在水上看才好，全家坐在一起。断桥和白堤在船上就能看到，不用走。",
-          ),
-          worth: c(
-            "Hold a ¥1 note up against the pagodas for the photo. The island path is flat and about 600 m round, with pavilions to sit in. Then board the boat to Zhongshan Park pier.",
-            "拿一张一元纸币对着石塔拍照。岛上的路是平的，一圈约 600 米，有亭子可以坐。然后坐去中山公园码头的船。",
-          ),
-          avoid: c(
-            "Private rowboat touts on the shore, and boarding a boat back to Hubin. Check the sign for 中山公园 before you get on.",
-            "岸边拉客的私人手划船。也别坐回湖滨的船，上船前看清牌子写的是「中山公园」。",
-          ),
-        },
-        red: {
-          q: "西湖 游船 三潭印月 避雷",
-          tip: c(
-            "Posts say to bring a ¥1 note with you and to buy water before the lake, where a bottle costs ¥10.",
-            "笔记建议提前换好一元纸币，水在外面先买，景区里一瓶要 10 元。",
-          ),
-        },
-      },
-      {
-        time: "12:20",
+        time: "11:30",
         kind: "eat",
-        title: c("Lunch: Lou Wai Lou", "午餐：楼外楼"),
-        place: { zh: "楼外楼(孤山路店)", addr: "杭州市西湖区孤山路30号" },
-        photo: "dongpo",
+        title: c("Lunch: 绿茶", "午餐：绿茶"),
+        place: { zh: "绿茶", addr: "杭州市上城区湖滨 湖滨银泰 in77 C区2座 3楼" },
         note: c(
-          "Hangzhou's most famous restaurant, on the lake shore since 1848, three minutes on the flat from where the boat lands. The setting is better than the cooking.",
-          "杭州最有名的馆子，1848 年起就在湖边，下船后平路走三分钟就到。环境比菜好。",
+          "in77, block C2, 3rd floor. Sit down here. Hours and a menu price were not in the notes, so they are not printed. If the room is full, stay inside in77 and take the next seated table.",
+          "in77，C区2座，3楼。在这里坐下。营业时间和菜价不在笔记里，所以不印。如果满了，就留在 in77 里，坐下一家就吃。",
         ),
-        cost: c("About ¥150–200 per person", "人均约 150–200 元"),
-        book: "louwailou",
-        guide: {
-          why: c(
-            "You are paying for the setting and the history as much as the food. A long seated lunch by the water is the middle of the day.",
-            "吃的是环境和历史，不只是菜。在湖边坐下来慢慢吃一顿，正好是一天的中段。",
-          ),
-          worth: c(
-            "The safe orders: Dongpo pork, Longjing tea shrimp, beggar's chicken, fish balls in soup, and the ¥10 Longjing tea. Ask for a window table.",
-            "稳妥的点法：东坡肉、龙井虾仁、叫化鸡、鱼丸汤，再来 10 元一杯的龙井。订靠窗位。",
-          ),
-          avoid: c(
-            "Ordering the West Lake vinegar fish as the main dish. Locals and visitors alike find it sour and muddy. One to share for the story is enough, or skip it.",
-            "别把西湖醋鱼当主菜，本地人和游客都觉得又酸又有土腥味。想尝就点一条分着吃，或者不点。",
-          ),
-        },
-        red: {
-          q: "楼外楼 点菜 避雷",
-          more: [
-            c(
-              "Be warned: Hangzhou locals in the comments call it overpriced and say they never go. You are here for the lakeside seat and the history.",
-              "先说清楚：评论里的杭州本地人说它又贵又不好吃，自己不会去。来这里是为了湖边的位子和历史。",
-            ),
-            c(
-              "Visitors found the vinegar fish fishy and the fried bean-curd rolls empty. They liked the fish balls, the cold jellyfish, and the ¥10 Longjing tea with free refills.",
-              "游客觉得醋鱼腥，炸响铃是空的。评价好的是鱼丸、凉拌海蜇，还有 10 元一杯可以一直续水的龙井。",
-            ),
-            c(
-              "Service is friendly and a Saturday-night wait for a small table was about ten minutes.",
-              "服务态度好，星期六晚上小桌只等了十几分钟。",
-            ),
-          ],
-          tip: c(
-            "Posts warn there is little good food inside the scenic area, so eat properly here rather than grazing later.",
-            "笔记提醒景区里好吃的很少，在这里吃饱，别指望后面边走边吃。",
-          ),
-        },
-        local: [
-          c(
-            "Where Hangzhou people send friends instead: Bu Lao Li (不老里, Changsheng Road branch), Hangzhou dishes in an old lane five minutes from the Hubin pier. Its Dongpo pork and Longjing shrimp are the ones praised.",
-            "杭州人会带朋友去的：不老里（西湖长生路店），老巷子里的杭帮菜，离湖滨码头五分钟。东坡肉和龙井虾仁评价最好。",
-          ),
-          c(
-            "For a quick local lunch: Qi Xin Lao Long Tang noodle shop (齐心老弄堂面馆, Hubin branch). Toppings are stir-fried to order: kidney, eel, pork chop.",
-            "想吃得快又地道：齐心老弄堂面馆（湖滨店）。浇头现炒：腰花、鳝片、大排。",
-          ),
-          c(
-            "To use either, eat at 11:00 before the boat instead of after it. The rest of the day stays the same.",
-            "选这两家的话，改成 11:00 先吃饭再坐船，其他行程不变。",
-          ),
-        ],
       },
       {
-        time: "13:50",
-        kind: "see",
-        title: c("Autumn Moon on the Calm Lake", "平湖秋月"),
-        place: { zh: "平湖秋月", addr: "杭州市西湖区孤山路" },
-        photo: "bai",
+        time: "13:00",
+        kind: "walk",
+        title: c("A short Hubin walk", "湖滨走一小段"),
+        place: { zh: "湖滨", addr: "杭州市上城区湖滨 in77 外面的湖边" },
         note: c(
-          "A lakeside terrace 200 m from the restaurant, at the end of the Bai Causeway. One of the classic Ten Views of West Lake since the Song dynasty.",
-          "离餐厅 200 米的临湖平台，在白堤尽头。从宋代起就是西湖十景之一。",
+          "Umbrellas up. A short look at the lake in the rain, then back into in77. This is not a loop of the lake. Huagang and Leifeng stay off the day.",
+          "撑伞。雨里看一眼湖，然后回到 in77。这不是绕湖一周。花港和雷峰塔都不去。",
         ),
-        guide: {
-          worth: c(
-            "Sit on the terrace and look back along the causeway to the Broken Bridge. This is the postcard view without the 1 km walk.",
-            "坐在平台上，顺着白堤望向断桥。不用走那一公里，明信片上的景就在眼前。",
-          ),
-          avoid: c(
-            "Walking the causeway to the bridge and back. It is 2 km return with no shortcut.",
-            "别走白堤去断桥再回来，来回两公里，没有近路。",
-          ),
-        },
-      },
-      {
-        time: "14:15",
-        kind: "coffee",
-        title: c("Coffee by the lake: Furishine", "湖边咖啡：富日山咖啡"),
-        place: { zh: "Furishine Coffee 富日山咖啡(西湖店)", addr: "杭州市西湖区北山街65号1幢" },
-        photo: "broken",
-        note: c(
-          "Outdoor seats under big trees right on the water, at the bend where Gushan Road meets Beishan Street. It is on the cab route to Huagang, three minutes from lunch.",
-          "大树底下的露天座位，紧贴着湖水，就在孤山路和北山街交会的转弯处。正好在去花港的路上，离午餐三分钟车程。",
-        ),
-        cost: c("About ¥35 per person", "人均约 35 元"),
-        guide: {
-          worth: c(
-            "The Longjing tea latte, which reviewers say balances tea and coffee without being sweet, and the coconut-water americano.",
-            "龙井拿铁，评价说茶香和咖啡融合得好、不太甜；还有椰青美式。",
-          ),
-          avoid: c(
-            "Dusk without mosquito repellent. Reviewers mention the mosquitoes. One local says Hangzhou people rarely come, but that the trees and the breeze are worth an afternoon.",
-            "傍晚去记得带驱蚊水，评价里提到蚊子多。有本地人说杭州人自己不太来，但树下吹着湖风坐一下午很值。",
-          ),
-        },
-      },
-      {
-        time: "14:50",
-        kind: "cab",
-        title: c("Cab to Huagang Park", "打车去花港观鱼"),
-        place: { zh: "花港观鱼(南门)", addr: "杭州市西湖区南山路 花港观鱼南门" },
-        note: c(
-          "Ask for the south gate on Nanshan Road, which is closest to the carp pond.",
-          "跟司机说去南山路的南门，离红鱼池最近。",
-        ),
-        cost: c("10–15 min · about ¥15", "10–15 分钟 · 约 15 元"),
-      },
-      {
-        time: "15:05",
-        kind: "see",
-        title: c("Huagang Park, red carp and tea", "花港观鱼，喝茶"),
-        place: { zh: "花港观鱼", addr: "杭州市西湖区南山路" },
-        photo: "huagang",
-        note: c(
-          "A Song-dynasty garden known for a pond of thousands of red carp, five minutes on the flat from the gate. This is the rest stop of the day.",
-          "宋代园林，以满池红鲤出名，从门口平路走五分钟。这是今天的歇脚处。",
-        ),
-        guide: {
-          worth: c(
-            "Sit down with a glass of Longjing tea by the water. Hangzhou is where it is grown.",
-            "在水边坐下喝一杯龙井。杭州就是龙井的产地。",
-          ),
-          avoid: c(
-            "Buying Longjing from anyone who walks up to you. If you want tea to take home, buy sealed tins in a proper shop.",
-            "别跟主动上来兜售的人买龙井。要带茶叶回去，到正规店买密封罐装的。",
-          ),
-        },
-      },
-      {
-        time: "15:40",
-        kind: "see",
-        title: c("Leifeng Pagoda", "雷峰塔"),
-        place: { zh: "雷峰塔景区", addr: "杭州市西湖区南山路15号" },
-        photo: "leifeng",
-        optional: true,
-        note: c(
-          "The pagoda where the White Snake was imprisoned in the legend. Rebuilt in 2002 over the ruins of the 10th-century original. Take a cab the 700 m from Huagang.",
-          "传说中镇压白娘子的塔。2002 年在十世纪原塔遗址上重建。从花港过去 700 米，打车。",
-        ),
-        cost: c("¥40", "40 元"),
-        guide: {
-          why: c(
-            "The best high view of the whole lake, reached by an escalator up the hill and a lift inside the tower.",
-            "俯瞰整个西湖最好的高处，上山有扶梯，塔内有电梯。",
-          ),
-          avoid: c(
-            "Going up if the lift queue is long. Posts report long waits, and the stairs are the only other way. Skip it and stay longer over tea instead.",
-            "电梯排队长就别上。笔记说常要等很久，不然只能爬楼梯。不如在花港多喝一会儿茶。",
-          ),
-        },
       },
       {
         time: "16:15",
@@ -418,8 +237,8 @@ export const days: Day[] = [
         title: c("Cab back to Hangzhou East", "打车回杭州东站"),
         place: { zh: "杭州东站", addr: "杭州市上城区天城路1号" },
         note: c(
-          "Leave the lake by 16:15. G238 is 17:37, gate 16A. Friday afternoon traffic around West Lake is slow.",
-          "16:15 前离开西湖。G238 是 17:37，检票口 16A。星期五下午西湖周边很堵。",
+          "Leave in77 or Hubin by cab no later than 16:15. G238 is 17:37 from Hangzhou East, gate 16A. 16:15 is the latest cab.",
+          "最晚 16:15 从 in77 或湖滨打车离开。G238 是杭州东 17:37，检票口 16A。16:15 是最晚的车。",
         ),
         cost: c("35–55 min · about ¥45", "35–55 分钟 · 约 45 元"),
       },
@@ -438,19 +257,19 @@ export const days: Day[] = [
     ],
     tips: [
       c(
-        "Late October is the tail of osmanthus season. The lake smells sweet. Bring a light jacket for the boat.",
-        "十月下旬是桂花季的尾巴，湖边很香。坐船风大，带件薄外套。",
+        "Umbrellas. The Hangzhou visit is Hubin and in77. After the short lake look, go back inside the mall.",
+        "带伞。这次杭州就是湖滨和 in77。看完湖就回到商场里。",
       ),
       c(
-        "A sightseeing cart runs round the lake for about ¥20 a hop. Use it if anyone's legs are done.",
-        "环湖有观光电瓶车，每段约 20 元。谁走不动了就坐。",
+        "The cab to Hangzhou East is no later than 16:15. G238 is 17:37.",
+        "去杭州东的车最晚 16:15。G238 是 17:37。",
       ),
     ],
     planB: {
-      title: c("If it rains hard", "如果下大雨"),
+      title: c("If the rain is too heavy for the lake edge", "如果雨大到湖边站不住"),
       body: c(
-        "Swap the lake for the Grand Canal: China Grand Canal Museum at Gongchen Bridge (free, indoors), then lunch on Xiaohe Straight Street. Same trains, same day shape.",
-        "把西湖换成大运河：拱宸桥旁的中国京杭大运河博物馆（免费，室内），然后到小河直街吃午饭。车次不变，节奏不变。",
+        "Skip the umbrella walk and stay inside in77. Lunch is still 绿茶. The cab is still no later than 16:15, and G238 is still 17:37.",
+        "湖边那一小段不走，留在 in77 里。午饭还是绿茶。车还是最晚 16:15，G238 还是 17:37。",
       ),
     },
   },
