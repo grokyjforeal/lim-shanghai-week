@@ -58,6 +58,8 @@ export type Todo = {
   detail: Copy;
   href?: string;
   urgent?: boolean;
+  /** Issued already. Shown as booked, not as an open task. */
+  booked?: boolean;
 };
 
 function c(en: string, zh: string): Copy {
@@ -145,23 +147,23 @@ export const todos: Todo[] = [
   },
   {
     id: "train-hz",
-    due: "2026-10-09",
-    title: c("Buy Hangzhou train tickets", "买杭州高铁票"),
+    due: "2026-10-23",
+    booked: true,
+    title: c("Hangzhou trains booked", "杭州高铁已出票"),
     detail: c(
-      "Sales open 15 days ahead, so Friday's trains go on sale 9 October. Shanghai Hongqiao → Hangzhou East around 08:30, and back around 17:30. Six seats together. Use the 12306 app (passport sign-up takes a day to verify) or Trip.com.",
-      "提前 15 天开售，星期五的车 10月9日 开卖。上海虹桥 → 杭州东，08:30 左右；回程 17:30 左右。六个连座。用 12306 App（护照注册要一天审核）或 Trip.com。",
+      "Issued, 1st class, six people. Passport is the ticket. G7349 Hongqiao 09:11 gate 9A9B → Hangzhou East 10:06. Booking 1433816027386644, collection E090756664. G238 Hangzhou East 17:37 gate 16A → Hongqiao 18:22. Booking 1433816027387256, collection E227139473.",
+      "已出票，一等座，六人。护照就是车票。G7349 虹桥 09:11，检票口 9A9B，到杭州东 10:06。订单 1433816027386644，取票号 E090756664。G238 杭州东 17:37，检票口 16A，到虹桥 18:22。订单 1433816027387256，取票号 E227139473。",
     ),
-    href: "https://www.12306.cn/en/index.html",
   },
   {
     id: "train-sz",
-    due: "2026-10-11",
-    title: c("Buy Suzhou train tickets", "买苏州高铁票"),
+    due: "2026-10-25",
+    booked: true,
+    title: c("Suzhou trains booked", "苏州高铁已出票"),
     detail: c(
-      "On sale from 11 October. Shanghai Hongqiao → Suzhou North (苏州北站) around 08:20. Back in the evening, a 苏州北站 to Hongqiao departure between 19:40 and 20:10. Leave Shantang about 18:45. The cab is 35 to 45 minutes.",
-      "10月11日 开售。上海虹桥 → 苏州北站，08:20 左右。回程是晚上，苏州北站到虹桥，19:40 到 20:10 之间的车。大约 18:45 离开山塘街。打车要 35 到 45 分钟。",
+      "Issued, 1st class, six people. Passport is the ticket. G1214 Hongqiao 09:13 gate 17A17B → 苏州北站 09:46. Booking 1433816027383326, collection E283994195. G1919 苏州北站 17:39 gate 2B → Hongqiao 18:02. Booking 1433816027385452, collection E255364710. Leave Shantang by 16:15. The cab is 35 to 45 minutes.",
+      "已出票，一等座，六人。护照就是车票。G1214 虹桥 09:13，检票口 17A17B，到苏州北站 09:46。订单 1433816027383326，取票号 E283994195。G1919 苏州北站 17:39，检票口 2B，到虹桥 18:02。订单 1433816027385452，取票号 E255364710。16:15 前离开山塘街。打车要 35 到 45 分钟。",
     ),
-    href: "https://www.12306.cn/en/index.html",
   },
   {
     id: "disney",
@@ -188,8 +190,8 @@ export const todos: Todo[] = [
     due: "2026-10-18",
     title: c("Buy Humble Administrator's Garden tickets", "买拙政园门票"),
     detail: c(
-      "Timed real-name tickets open 7 days ahead. WeChat official account「苏州园林旅游」, Sun 25 Oct, 09:00–10:00 slot, ¥80 each. Rednote posts say orders on third-party apps can fail hours later and that buying one ticket at a time works when a group order shows sold out. Ask at the gate whether the senior discount applies to foreign passports.",
-      "实名分时段门票，提前 7 天开售。微信公众号「苏州园林旅游」，10月25日 09:00–10:00 时段，每人 80 元。小红书上说第三方平台的订单可能几小时后出票失败；多人一起买显示无票时，一张一张买能买到。长者优惠是否适用外国护照，到门口问。",
+      "G1214 arrives 苏州北站 at 09:46, then the cab is 35 to 45 minutes, so a 09:00–10:00 slot is too early. On「苏州园林旅游」, move Sun 25 Oct to a slot at 11:00 or later, ¥80 each. If that slot is gone, buy at the gate. Ask there whether the senior discount applies to foreign passports.",
+      "G1214 是 09:46 到苏州北站，打车还要 35 到 45 分钟，09:00–10:00 的票来不及。在「苏州园林旅游」把 10月25日 改到 11:00 或更晚的时段，每人 80 元。那个时段没了就在门口买。长者优惠是否适用外国护照，到门口问。",
     ),
   },
   {
@@ -197,8 +199,8 @@ export const todos: Todo[] = [
     due: "2026-10-20",
     title: c("Reserve Lou Wai Lou, Hangzhou", "订楼外楼（杭州）"),
     detail: c(
-      "Fri 23 Oct, 11:30, six people, lake-view table. Ask the hotel front desk to call for you if the line is in Chinese only.",
-      "10月23日星期五 11:30，六位，看湖的桌。电话只讲中文的话，请酒店前台帮忙打。",
+      "Fri 23 Oct, 12:20, six people, lake-view table. G7349 arrives Hangzhou East at 10:06. Ask the hotel front desk to call for you if the line is in Chinese only.",
+      "10月23日星期五 12:20，六位，看湖的桌。G7349 是 10:06 到杭州东。电话只讲中文的话，请酒店前台帮忙打。",
     ),
   },
   {
@@ -215,8 +217,8 @@ export const todos: Todo[] = [
     due: "2026-10-25",
     title: c("Gu Su Qiao noodles, Suzhou", "姑苏桥面（苏州）"),
     detail: c(
-      "Sun 25 Oct, about 11:30, six people. Walk-in Su-style noodles at 姑苏桥（第一天门）, 观前街第一天门12-14号. Call 0512-66016667 if you want a table for six.",
-      "10月25日星期日 11:30 左右，六位。姑苏桥（第一天门）是走进去吃的苏式面，观前街第一天门12-14号。六个人想坐一起就打电话 0512-66016667。",
+      "Sun 25 Oct, about 12:15, six people. Walk-in Su-style noodles at 姑苏桥（第一天门）, 观前街第一天门12-14号. Call 0512-66016667 if you want a table for six. G1919 leaves 苏州北站 at 17:39, so lunch stays short.",
+      "10月25日星期日 12:15 左右，六位。姑苏桥（第一天门）是走进去吃的苏式面，观前街第一天门12-14号。六个人想坐一起就打电话 0512-66016667。G1919 是 17:39 从苏州北站开，午饭不要吃太久。",
     ),
   },
   {

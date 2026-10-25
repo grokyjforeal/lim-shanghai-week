@@ -541,7 +541,7 @@ function TodoRow({
           className="mt-0.5 h-6 w-6 shrink-0 accent-[#8c2f24]"
         />
         <span className="min-w-0">
-          <span className={`block text-base font-semibold leading-snug ${isDone ? "line-through" : ""}`}>
+          <span className={`block text-base font-semibold leading-snug ${isDone && !todo.booked ? "line-through" : ""}`}>
             {t(todo.title)}
           </span>
           <span className="mt-1 flex flex-wrap gap-2 text-xs font-medium">
@@ -553,7 +553,7 @@ function TodoRow({
           </span>
         </span>
       </label>
-      {!isDone ? (
+      {!isDone || todo.booked ? (
         <div className="pl-9">
           <p className="mt-2 text-[15px] leading-relaxed text-ink/85">{t(todo.detail)}</p>
           {todo.href ? (
@@ -586,7 +586,14 @@ export function TripApp() {
       const savedLang = localStorage.getItem(LANG_KEY);
       if (savedLang === "en" || savedLang === "zh") setLang(savedLang);
       const savedDone = localStorage.getItem(DONE_KEY);
-      if (savedDone) setDone(JSON.parse(savedDone));
+      const parsed = savedDone ? JSON.parse(savedDone) : {};
+      const nextDone: Record<string, boolean> =
+        parsed && typeof parsed === "object" ? { ...parsed } : {};
+      for (const todo of todos) {
+        if (todo.booked) nextDone[todo.id] = true;
+      }
+      setDone(nextDone);
+      localStorage.setItem(DONE_KEY, JSON.stringify(nextDone));
     } catch {
       /* private mode: run without saved state */
     }
@@ -630,6 +637,7 @@ export function TripApp() {
   };
 
   const toggle = (id: string) => {
+    if (todos.some((todo) => todo.id === id && todo.booked)) return;
     setDone((prev) => {
       const next = { ...prev, [id]: !prev[id] };
       try {
