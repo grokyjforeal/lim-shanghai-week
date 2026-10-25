@@ -215,8 +215,8 @@ export const todos: Todo[] = [
     due: "2026-10-25",
     title: c("Gu Su Qiao noodles, Suzhou", "姑苏桥面（苏州）"),
     detail: c(
-      "Sun 25 Oct, about 11:30, six people. Walk-in Su-style noodles at 姑苏桥（第一天门）, 观前街第一天门12-14号. Call 0512-66016667 if you want a table for six. Not Song He Lou.",
-      "10月25日星期日 11:30 左右，六位。姑苏桥（第一天门）是走进去吃的苏式面，观前街第一天门12-14号。六个人想坐一起就打电话 0512-66016667。不是松鹤楼。",
+      "Sun 25 Oct, about 11:30, six people. Walk-in Su-style noodles at 姑苏桥（第一天门）, 观前街第一天门12-14号. Call 0512-66016667 if you want a table for six.",
+      "10月25日星期日 11:30 左右，六位。姑苏桥（第一天门）是走进去吃的苏式面，观前街第一天门12-14号。六个人想坐一起就打电话 0512-66016667。",
     ),
   },
   {

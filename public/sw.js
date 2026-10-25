@@ -1,5 +1,5 @@
 // Keeps the itinerary readable with no connection (metro, trains, patchy roaming).
-const CACHE = "shanghai-week-v10";
+const CACHE = "shanghai-week-v11";
 
 self.addEventListener("install", (event) => {
   event.waitUntil(caches.open(CACHE).then((cache) => cache.add("/")));

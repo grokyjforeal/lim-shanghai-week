@@ -913,8 +913,8 @@ export const days: Day[] = [
         title: c("Lunch: Gu Su Qiao", "午餐：姑苏桥（第一天门）"),
         place: { zh: "姑苏桥（第一天门）", addr: "苏州市姑苏区观前街第一天门12-14号" },
         note: c(
-          "Cab from the garden toward Guanqian Street. This is a Su-style noodle shop, a Michelin Guide listed restaurant, not Song He Lou. Walk in. For six people, call 0512-66016667 if you want one table. Stay indoors. Tell the driver 观前街第一天门.",
-          "从园子打车去观前街。这是苏式面馆，米其林指南入选餐厅，不是松鹤楼。走进去就能吃。六个人想坐一桌，打电话 0512-66016667。在室内吃。跟司机说观前街第一天门。",
+          "Cab from the garden toward Guanqian Street. Su-style noodles at 姑苏桥（第一天门）. Walk in. For six people, call 0512-66016667 if you want one table. Stay indoors. Tell the driver 观前街第一天门.",
+          "从园子打车去观前街。午饭是姑苏桥（第一天门）的苏式面。走进去就能吃。六个人想坐一桌，打电话 0512-66016667。在室内吃。跟司机说观前街第一天门。",
         ),
         cost: c("Cab about 10 min · about ¥60 a person", "打车约 10 分钟 · 人均约 60 元"),
         book: "gusuqiao",
@@ -924,8 +924,8 @@ export const days: Day[] = [
             "点一碗苏式面。秋天的时令是蟹黄面。四味碟是好配的小菜。",
           ),
           avoid: c(
-            "Going to Song He Lou on Taijian Lane. Lunch is this noodle shop.",
-            "不要去太监弄的松鹤楼。午饭就在这家面馆。",
+            "Do not turn lunch into another walk. Eat here, then go to the boat.",
+            "不要把午饭走成另一段路。在这里吃完，就去坐船。",
           ),
         },
       },
@@ -950,8 +950,8 @@ export const days: Day[] = [
             "坐一条船，再走一小段。雨要是很大，敞篷船就不坐，只走屋檐下那一小段。",
           ),
           avoid: c(
-            "Walking the full 1.6 km lane. Lion Grove Garden is a wet climb, so leave it. Couple's Garden is not on today's list.",
-            "别把一公里六的街走完。狮子林的假山是湿的，要爬，不去。耦园今天不在行程里。",
+            "Walking the full 1.6 km lane. Lion Grove Garden is a wet climb, so leave it. One garden today, then the boat.",
+            "别把一公里六的街走完。狮子林的假山是湿的，要爬，不去。今天只看一座园，然后去坐船。",
           ),
         },
       },
