@@ -158,8 +158,8 @@ export const todos: Todo[] = [
     due: "2026-10-11",
     title: c("Buy Suzhou train tickets", "买苏州高铁票"),
     detail: c(
-      "On sale from 11 October. Shanghai Hongqiao → Suzhou (苏州站) around 08:20. Back in the evening, a 苏州站 to Hongqiao departure between 19:40 and 20:10, after Shantang.",
-      "10月11日 开售。上海虹桥 → 苏州站，08:20 左右。回程改到晚上，山塘街之后，苏州站到虹桥，19:40 到 20:10 之间的车。",
+      "On sale from 11 October. Shanghai Hongqiao → Suzhou North (苏州北站) around 08:20. Back in the evening, a 苏州北站 to Hongqiao departure between 19:40 and 20:10. Leave Shantang about 18:45. The cab is 35 to 45 minutes.",
+      "10月11日 开售。上海虹桥 → 苏州北站，08:20 左右。回程是晚上，苏州北站到虹桥，19:40 到 20:10 之间的车。大约 18:45 离开山塘街。打车要 35 到 45 分钟。",
     ),
     href: "https://www.12306.cn/en/index.html",
   },
@@ -526,8 +526,8 @@ export const redPicks: { q: string; title: Copy; take: Copy }[] = [
     q: "苏州景点 避雷",
     title: c("Suzhou: what is worth it", "苏州：哪些值得去"),
     take: c(
-      "Arrive at Suzhou station, not the other two. Crab-roe noodles by the Pingjiang canal are the most-recommended lunch after squirrel fish.",
-      "到苏州站，别到另外两个站。除了松鼠桂鱼，平江河边的蟹黄面是被推荐最多的。",
+      "Your tickets are 苏州北站. The cab into the old city is the long one. Crab-roe noodles by the Pingjiang canal are the most-recommended lunch after squirrel fish.",
+      "车票是苏州北站。进古城的车程比较长。除了松鼠桂鱼，平江河边的蟹黄面是被推荐最多的。",
     ),
   },
   {

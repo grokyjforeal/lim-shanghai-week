@@ -815,39 +815,41 @@ export const days: Day[] = [
       {
         time: "08:20",
         kind: "train",
-        title: c("High-speed train to Suzhou", "高铁到苏州站"),
-        place: { zh: "苏州站", addr: "苏州市姑苏区苏站路27号" },
-        photo: "szstation",
-        note: c("About 25 to 35 minutes.", "约 25 到 35 分钟。"),
+        title: c("High-speed train to Suzhou North", "高铁到苏州北站"),
+        place: { zh: "苏州北站", addr: "苏州市相城区城通路" },
+        note: c(
+          "About 25 to 35 minutes. Get off at 苏州北站.",
+          "约 25 到 35 分钟。在苏州北站下车。",
+        ),
         cost: c("¥37–46 second class", "二等座 37–46 元"),
         book: "train-sz",
         guide: {
           avoid: c(
-            "Booking to Suzhou North or Suzhou Industrial Park. Only Suzhou station (苏州) is beside the old city.",
-            "别买到苏州北或苏州园区。只有「苏州」站在古城旁边。",
+            "Getting off early. Your tickets are 苏州北站, in Xiangcheng.",
+            "不要提前下车。你们的票是相城区的苏州北站。",
           ),
         },
         red: {
           q: "苏州一日游 避雷",
           tip: c(
-            "Posts agree: Suzhou station first choice, close to the garden. The other two are far out.",
-            "笔记一致：首选苏州站，离拙政园近。另外两个站都远。",
+            "Your station is 苏州北站, in Xiangcheng. The cab into the old city is about 35 to 45 minutes.",
+            "你们的站是相城区的苏州北站。进城打车大约 35 到 45 分钟。",
           ),
         },
       },
       {
-        time: "09:05",
+        time: "09:25",
         kind: "eat",
         title: c("Breakfast: Changmen Yaoji Soy Milk", "早餐：阊门姚记豆浆"),
         place: { zh: "阊门姚记豆浆", addr: "苏州市姑苏区旧学前2-14号" },
         note: c(
-          "First stop in Suzhou, before the garden. Cab from the station south square, about 15 minutes, near historic Changmen. Open 24 hours. A soy-milk counter the city has used for more than 30 years. Order salty soy milk (咸豆浆, about ¥6) with youzha, dried shrimp, and green onion, plus a youtiao (油条, about ¥2). Eat and leave by 09:30. The garden ticket slot is 09:00 to 10:00.",
-          "到苏州后的第一站，先吃这个再去园子。从车站南广场打车，约 15 分钟，在老阊门一带。24 小时营业，开了 30 多年的豆浆店。点咸豆浆（约 6 元），加油炸、虾皮、葱花，再来一根油条（约 2 元）。09:30 前吃完走。拙政园的票是 09:00 到 10:00。",
+          "First stop in Suzhou, before the garden. Cab from 苏州北站, about 35 to 45 minutes, to historic Changmen. Tell the driver 阊门姚记豆浆. Open 24 hours. Order salty soy milk (咸豆浆, about ¥6) with youzha, dried shrimp, and green onion, plus a youtiao (油条, about ¥2). Eat fast and be back in the cab by 09:40. The garden ticket slot is 09:00 to 10:00.",
+          "到苏州后的第一站，先吃这个再去园子。从苏州北站打车，约 35 到 45 分钟，到老阊门。跟司机说阊门姚记豆浆。24 小时营业。点咸豆浆（约 6 元），加油炸、虾皮、葱花，再来一根油条（约 2 元）。快吃，09:40 前回到车上。拙政园的票是 09:00 到 10:00。",
         ),
-        cost: c("About ¥8 a person", "每人约 8 元"),
+        cost: c("Cab 35–45 min · about ¥55–75, then about ¥8 a person", "打车 35–45 分钟 · 约 55–75 元，豆浆每人约 8 元"),
       },
       {
-        time: "09:35",
+        time: "09:40",
         kind: "cab",
         title: c("Cab to the garden", "打车去拙政园"),
         place: { zh: "拙政园", addr: "苏州市姑苏区东北街178号" },
@@ -858,7 +860,7 @@ export const days: Day[] = [
         cost: c("About 15 min · about ¥20", "约 15 分钟 · 约 20 元"),
       },
       {
-        time: "09:50",
+        time: "09:55",
         kind: "see",
         title: c("Humble Administrator's Garden", "拙政园"),
         place: { zh: "拙政园", addr: "苏州市姑苏区东北街178号" },
@@ -972,8 +974,8 @@ export const days: Day[] = [
         title: c("Shantang Street, lanterns", "山塘街，看灯"),
         place: { zh: "山塘街", addr: "苏州市姑苏区山塘街" },
         note: c(
-          "Stay through dusk for the lanterns. Leave about 19:30 for the station. The Pingjiang boat is the boat for today. Skip a boat here.",
-          "待到黄昏看灯。大约 19:30 去车站。今天的船是平江路那条。这里的船不坐。",
+          "Stay through dusk for the lanterns. Leave about 18:45 for 苏州北站. The cab back is the long one. The Pingjiang boat is the boat for today. Skip a boat here.",
+          "待到黄昏看灯。大约 18:45 去苏州北站。回车站这段车程比较长。今天的船是平江路那条。这里的船不坐。",
         ),
         cost: c("A slow walk · free", "慢慢走 · 免费"),
         guide: {
@@ -988,15 +990,15 @@ export const days: Day[] = [
         },
       },
       {
-        time: "19:30",
+        time: "18:45",
         kind: "cab",
-        title: c("Cab to Suzhou station", "打车回苏州站"),
-        place: { zh: "苏州站", addr: "苏州市姑苏区苏站路27号" },
+        title: c("Cab to Suzhou North", "打车回苏州北站"),
+        place: { zh: "苏州北站", addr: "苏州市相城区城通路" },
         note: c(
-          "Leave Shantang about 19:30. Call the DiDi from the east end, near Changmen, not from inside the lane. Aim to be at 苏州站 before 20:00.",
-          "大约 19:30 离开山塘街。在东头、靠近阊门叫滴滴，不要在巷子里面叫。争取 20:00 前到苏州站。",
+          "Leave Shantang about 18:45. Call the DiDi from the east end, near Changmen, not from inside the lane. Tell the driver 苏州北站. Aim to be at the station by 19:30 for the passport gate.",
+          "大约 18:45 离开山塘街。在东头、靠近阊门叫滴滴，不要在巷子里面叫。跟司机说苏州北站。争取 19:30 前到站，走人工通道验护照。",
         ),
-        cost: c("About 20 min · about ¥25", "约 20 分钟 · 约 25 元"),
+        cost: c("About 35–45 min · about ¥55–75", "约 35–45 分钟 · 约 55–75 元"),
       },
       {
         time: "20:00",
@@ -1004,8 +1006,8 @@ export const days: Day[] = [
         title: c("Evening train back to Hongqiao", "晚上的高铁回虹桥"),
         place: HONGQIAO,
         note: c(
-          "Book a 苏州站 to Hongqiao train leaving between 19:40 and 20:10. Published timetables list departures in that window, about 25 to 40 minutes. Buy whichever is on sale tonight. Then a cab home. Disney is tomorrow.",
-          "订苏州站到虹桥、19:40 到 20:10 之间开的车。公开时刻表在这个时段有车，大约 25 到 40 分钟。今晚哪班在卖就买哪班。到了再打车回酒店。明天去迪士尼。",
+          "Your train is 苏州北站 to Hongqiao, leaving between 19:40 and 20:10. Be at 苏州北站 by 19:30. About 25 to 40 minutes, then a cab home. Disney is tomorrow.",
+          "回程是苏州北站到虹桥，19:40 到 20:10 之间开。19:30 前到苏州北站。大约 25 到 40 分钟，到了再打车回酒店。明天去迪士尼。",
         ),
         cost: c("¥37–46 · then cab home about ¥60", "37–46 元 · 之后打车回酒店约 60 元"),
         book: "train-sz",
