@@ -158,8 +158,8 @@ export const todos: Todo[] = [
     due: "2026-10-11",
     title: c("Buy Suzhou train tickets", "买苏州高铁票"),
     detail: c(
-      "On sale from 11 October. Shanghai Hongqiao → Suzhou (苏州站) around 08:20, and back around 17:00.",
-      "10月11日 开售。上海虹桥 → 苏州站，08:20 左右；回程 17:00 左右。",
+      "On sale from 11 October. Shanghai Hongqiao → Suzhou (苏州站) around 08:20. Back in the evening, a 苏州站 to Hongqiao departure between 19:40 and 20:10, after Shantang.",
+      "10月11日 开售。上海虹桥 → 苏州站，08:20 左右。回程改到晚上，山塘街之后，苏州站到虹桥，19:40 到 20:10 之间的车。",
     ),
     href: "https://www.12306.cn/en/index.html",
   },
@@ -211,12 +211,12 @@ export const todos: Todo[] = [
     ),
   },
   {
-    id: "songhelou",
-    due: "2026-10-20",
-    title: c("Reserve Song He Lou, Suzhou", "订松鹤楼（苏州）"),
+    id: "gusuqiao",
+    due: "2026-10-25",
+    title: c("Gu Su Qiao noodles, Suzhou", "姑苏桥面（苏州）"),
     detail: c(
-      "Sun 25 Oct, 12:30, six people, Guanqian Street branch on Taijian Lane.",
-      "10月25日星期日 12:30，六位，太监弄的观前街店。",
+      "Sun 25 Oct, about 11:30, six people. Walk-in Su-style noodles at 姑苏桥（第一天门）, 观前街第一天门12-14号. Call 0512-66016667 if you want a table for six. Not Song He Lou.",
+      "10月25日星期日 11:30 左右，六位。姑苏桥（第一天门）是走进去吃的苏式面，观前街第一天门12-14号。六个人想坐一起就打电话 0512-66016667。不是松鹤楼。",
     ),
   },
   {
