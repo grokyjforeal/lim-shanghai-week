@@ -68,6 +68,8 @@ export const tripStart = "2026-10-22";
 export const tripEnd = "2026-10-28";
 
 export const family = [
+  { name: "JR Lim", note: c("Adult ticket", "成人票") },
+  { name: "Esther Tsan", note: c("Adult ticket", "成人票") },
   { name: "Jing Xuan Lim", note: c("Adult ticket", "成人票") },
   { name: "Jing Yao Lim", note: c("Adult ticket", "成人票") },
   { name: "Wai Koon Lee", note: c("61 · senior ticket · short walks only", "61岁 · 长者票 · 不能走太多") },
@@ -88,8 +90,8 @@ export const hotel = {
   checkIn: c("Thu 22 Oct, from 14:00", "10月22日星期四 14:00 起"),
   checkOut: c("Wed 28 Oct, by 12:00", "10月28日星期三 12:00 前"),
   room: c(
-    "Booked: one King Room for Wai Koon and Chee Onn, no breakfast. The second room for Jing Xuan and Jing Yao is NOT booked yet.",
-    "已订：一间大床房（Wai Koon 和 Chee Onn），不含早餐。Jing Xuan 和 Jing Yao 的第二间房还没订。",
+    "Booked: one King Room for Wai Koon and Chee Onn, no breakfast. The second room for Jing Xuan and Jing Yao is NOT booked yet. JR and Esther's room is not listed here.",
+    "已订：一间大床房（Wai Koon 和 Chee Onn），不含早餐。Jing Xuan 和 Jing Yao 的第二间房还没订。JR 和 Esther 的房间这里没有列出。",
   ),
 };
 
@@ -137,8 +139,8 @@ export const todos: Todo[] = [
     urgent: true,
     title: c("Reserve the birthday dinner at Waitan Jiayan", "订生日晚餐：外滩家宴"),
     detail: c(
-      "Sat 24 Oct, 18:00, four people, window table facing the river, birthday. Waitan Jiayan (外滩家宴·上海菜), Bund-Yu Garden branch, 2nd floor, Bund 22, 22 Zhongshan East 2nd Road. Book on Dianping (大众点评) or ask the hotel to call. Make sure it is this branch, not the Jiujiang Road one.",
-      "10月24日星期六 18:00，四位，靠窗江景位，庆生。外滩家宴·上海菜（外滩豫园店），中山东二路22号外滩22号2楼。在大众点评订位，或请酒店帮忙打电话。认准这家店，不是九江路那家。",
+      "Sat 24 Oct, 18:00, six people, window table facing the river, birthday. Waitan Jiayan (外滩家宴·上海菜), Bund-Yu Garden branch, 2nd floor, Bund 22, 22 Zhongshan East 2nd Road. Book on Dianping (大众点评) or ask the hotel to call. Make sure it is this branch, not the Jiujiang Road one.",
+      "10月24日星期六 18:00，六位，靠窗江景位，庆生。外滩家宴·上海菜（外滩豫园店），中山东二路22号外滩22号2楼。在大众点评订位，或请酒店帮忙打电话。认准这家店，不是九江路那家。",
     ),
   },
   {
@@ -146,8 +148,8 @@ export const todos: Todo[] = [
     due: "2026-10-09",
     title: c("Buy Hangzhou train tickets", "买杭州高铁票"),
     detail: c(
-      "Sales open 15 days ahead, so Friday's trains go on sale 9 October. Shanghai Hongqiao → Hangzhou East around 08:30, and back around 17:30. Four seats together. Use the 12306 app (passport sign-up takes a day to verify) or Trip.com.",
-      "提前 15 天开售，星期五的车 10月9日 开卖。上海虹桥 → 杭州东，08:30 左右；回程 17:30 左右。四个连座。用 12306 App（护照注册要一天审核）或 Trip.com。",
+      "Sales open 15 days ahead, so Friday's trains go on sale 9 October. Shanghai Hongqiao → Hangzhou East around 08:30, and back around 17:30. Six seats together. Use the 12306 app (passport sign-up takes a day to verify) or Trip.com.",
+      "提前 15 天开售，星期五的车 10月9日 开卖。上海虹桥 → 杭州东，08:30 左右；回程 17:30 左右。六个连座。用 12306 App（护照注册要一天审核）或 Trip.com。",
     ),
     href: "https://www.12306.cn/en/index.html",
   },
@@ -195,8 +197,8 @@ export const todos: Todo[] = [
     due: "2026-10-20",
     title: c("Reserve Lou Wai Lou, Hangzhou", "订楼外楼（杭州）"),
     detail: c(
-      "Fri 23 Oct, 11:30, four people, lake-view table. Ask the hotel front desk to call for you if the line is in Chinese only.",
-      "10月23日星期五 11:30，四位，看湖的桌。电话只讲中文的话，请酒店前台帮忙打。",
+      "Fri 23 Oct, 11:30, six people, lake-view table. Ask the hotel front desk to call for you if the line is in Chinese only.",
+      "10月23日星期五 11:30，六位，看湖的桌。电话只讲中文的话，请酒店前台帮忙打。",
     ),
   },
   {
@@ -204,8 +206,8 @@ export const todos: Todo[] = [
     due: "2026-10-20",
     title: c("Reserve Sheng Yong Xing on the Bund", "订晟永兴（外滩）"),
     detail: c(
-      "Tue 27 Oct, 17:30, four people, river-side window table. Bund 5, 5th floor. Phone 021-6330 2885.",
-      "10月27日星期二 17:30，四位，江景靠窗位。外滩5号5楼。电话 021-6330 2885。",
+      "Tue 27 Oct, 17:30, six people, river-side window table. Bund 5, 5th floor. Phone 021-6330 2885.",
+      "10月27日星期二 17:30，六位，江景靠窗位。外滩5号5楼。电话 021-6330 2885。",
     ),
   },
   {
@@ -213,8 +215,8 @@ export const todos: Todo[] = [
     due: "2026-10-20",
     title: c("Reserve Song He Lou, Suzhou", "订松鹤楼（苏州）"),
     detail: c(
-      "Sun 25 Oct, 12:30, four people, Guanqian Street branch on Taijian Lane.",
-      "10月25日星期日 12:30，四位，太监弄的观前街店。",
+      "Sun 25 Oct, 12:30, six people, Guanqian Street branch on Taijian Lane.",
+      "10月25日星期日 12:30，六位，太监弄的观前街店。",
     ),
   },
   {
@@ -222,8 +224,8 @@ export const todos: Todo[] = [
     due: "2026-10-20",
     title: c("Reserve Lao Jishi", "订老吉士"),
     detail: c(
-      "Tue 27 Oct, 11:45, four people, Tianping Road branch. It has only a handful of tables.",
-      "10月27日星期二 11:45，四位，天平路店。店里只有几张桌子。",
+      "Tue 27 Oct, 11:45, six people, Tianping Road branch. It has only a handful of tables.",
+      "10月27日星期二 11:45，六位，天平路店。店里只有几张桌子。",
     ),
   },
   {
@@ -231,8 +233,8 @@ export const todos: Todo[] = [
     due: "2026-10-20",
     title: c("Reserve Ren He Guan", "订人和馆"),
     detail: c(
-      "Thu 22 Oct, 18:00, four people, Zhaojiabang Road branch. Do not skip this one: Rednote posts report walk-in waits of up to four hours. Book online through Dianping.",
-      "10月22日星期四 18:00，四位，肇嘉浜路店。这个一定要订：小红书上有人说不订位等了四个小时。在大众点评上预约。",
+      "Thu 22 Oct, 18:00, six people, Zhaojiabang Road branch. Do not skip this one: Rednote posts report walk-in waits of up to four hours. Book online through Dianping.",
+      "10月22日星期四 18:00，六位，肇嘉浜路店。这个一定要订：小红书上有人说不订位等了四个小时。在大众点评上预约。",
     ),
   },
   {
@@ -286,8 +288,8 @@ export const todos: Todo[] = [
     due: null,
     title: c("Save this page to the home screen", "把这个网页加到主屏幕"),
     detail: c(
-      "Open it once on each phone and choose Add to Home Screen. It then opens without a connection. Also keep photos of all four passports and the hotel booking in the family chat.",
-      "每部手机打开一次，选「添加到主屏幕」，之后没网也能看。四本护照和酒店订单的照片也发到家庭群里。",
+      "Open it once on each phone and choose Add to Home Screen. It then opens without a connection. Also keep photos of all six passports and the hotel booking in the family chat.",
+      "每部手机打开一次，选「添加到主屏幕」，之后没网也能看。六本护照和酒店订单的照片也发到家庭群里。",
     ),
   },
 ];
@@ -306,8 +308,8 @@ export const essentials: { id: string; title: Copy; items: Copy[] }[] = [
         "坐高铁那两天，虹桥火车站里走的路最长。让司机在出发层下客，进站后到服务台借轮椅送到站台。",
       ),
       c(
-        "Cabs are cheap and the default for four people. Use DiDi inside Alipay: type the destination in English or paste the Chinese name from this page. Pay in the app.",
-        "四个人打车最方便，也便宜。用支付宝里的滴滴：输入英文目的地，或贴上这个网页里的中文名。在 App 里付款。",
+        "Cabs are cheap and the default for six people. Use DiDi inside Alipay: type the destination in English or paste the Chinese name from this page. Pay in the app.",
+        "六个人打车最方便，也便宜。用支付宝里的滴滴：输入英文目的地，或贴上这个网页里的中文名。在 App 里付款。",
       ),
       c(
         "Street taxis are fine too. Show the driver the red card on any stop. Pay with Alipay or cash.",
@@ -380,7 +382,7 @@ export const essentials: { id: string; title: Copy; items: Copy[] }[] = [
 export const phrases: { en: string; zh: string; pinyin: string }[] = [
   { en: "Please take me to this address.", zh: "请带我去这个地址。", pinyin: "Qǐng dài wǒ qù zhège dìzhǐ." },
   { en: "Please use the meter.", zh: "请打表。", pinyin: "Qǐng dǎ biǎo." },
-  { en: "Four people. We have a reservation.", zh: "四位，我们订了位。", pinyin: "Sì wèi, wǒmen dìng le wèi." },
+  { en: "Six people. We have a reservation.", zh: "六位，我们订了位。", pinyin: "Liù wèi, wǒmen dìng le wèi." },
   { en: "Less oil, less salt, not spicy, please.", zh: "少油少盐，不要辣。", pinyin: "Shǎo yóu shǎo yán, bú yào là." },
   { en: "The bill, please.", zh: "买单，谢谢。", pinyin: "Mǎidān, xièxie." },
   { en: "Where is the toilet?", zh: "洗手间在哪里？", pinyin: "Xǐshǒujiān zài nǎlǐ?" },
@@ -425,6 +427,79 @@ export const reelPicks: { name: string; zh: string; note: Copy; planned: Copy | 
     note: c(
       "Huaiyang cooking in a garden-courtyard setting. Not placed in the plan: I could not confirm its address. Search it on Dianping if you want to swap it in for a dinner.",
       "江南庭院风格的淮扬菜。没排进行程：地址没能核实。想去的话在大众点评搜一下，可以替换某一顿晚餐。",
+    ),
+    planned: null,
+  },
+];
+
+export const placePicks: { name: string; zh: string; where?: Copy; note: Copy; planned: Copy | null }[] = [
+  {
+    name: "Rockbund",
+    zh: "洛克·外滩源",
+    where: c("North end of the Bund · Huqiu Rd / Yuanmingyuan Rd, Huangpu", "外滩北端 · 黄浦区虎丘路、圆明园路一带"),
+    note: c(
+      "A restored block of 1920s–30s buildings. The Rockbund Art Museum at 20 Huqiu Road opens Wed–Sun 11:00–19:00. Metro: East Nanjing Road, Exit 6, about 10 minutes on foot.",
+      "修复过的 1920–30 年代老建筑街区。虎丘路20号的上海外滩美术馆周三至周日 11:00–19:00 开放。地铁南京东路站6号口，步行约10分钟。",
+    ),
+    planned: c("Saturday, before sunset", "星期六日落前"),
+  },
+  {
+    name: "Donghu Road",
+    zh: "东湖路",
+    where: c("Changle Rd to Huaihai Middle Rd, former French Concession", "长乐路至淮海中路，老法租界"),
+    note: c(
+      "A short, quiet plane-tree street with cafés, just off Huaihai Road. Metro: Changshu Road (Lines 1, 7).",
+      "一条很短很安静的梧桐小路，有咖啡馆，紧挨淮海路。地铁常熟路站（1、7号线）。",
+    ),
+    planned: c("Tuesday afternoon", "星期二下午"),
+  },
+  {
+    name: "Wukang Road",
+    zh: "武康路",
+    where: c("Xuhui, from Wukang Mansion (1850 Huaihai Middle Rd)", "徐汇区，从武康大楼（淮海中路1850号）起"),
+    note: c(
+      "About a kilometre of 1930s villas under plane trees. Metro: Shanghai Library (Line 10), Exit 3.",
+      "约一公里的梧桐和 1930 年代洋房。地铁上海图书馆站（10号线）3号口。",
+    ),
+    planned: c("Tuesday morning", "星期二上午"),
+  },
+  {
+    name: "Matcha Wang",
+    zh: "Matcha Wang(HAI550店)",
+    where: c("1F-02, HAI550, 550 Huaihai Middle Rd, Huangpu", "黄浦区淮海中路550号 HAI550 一楼02号"),
+    note: c(
+      "Uji matcha bar that opened in late 2025. Order the sheep latte-art matcha latte (about ¥34) or the yuzu matcha latte. Daily 10:00–22:00. Expect a queue. It is mostly takeaway.",
+      "2025 年底开的宇治抹茶店。招牌是小羊拉花抹茶拿铁（约 34 元），还有柚子抹茶拿铁。每天 10:00–22:00。常要排队，以外带为主。",
+    ),
+    planned: c("Tuesday afternoon", "星期二下午"),
+  },
+  {
+    name: "Zhong Yao Tang",
+    zh: "忠曜堂新中式Gelato(湖南路店)",
+    where: c("3 Hunan Rd, Xuhui, at the Wukang Road end", "徐汇区湖南路3号，武康路口"),
+    note: c(
+      "Herbal 'new Chinese' gelato shop. Its 汉方可乐 (herbal cola) is the 'Chinese Coca-Cola' drink. Gelato flavours include chenpi, hawthorn and coix seed. One listing gives hours of 13:00–21:00, so check Amap. Metro: Shanghai Library (Line 10).",
+      "新中式草本冰淇淋店，招牌饮品是汉方可乐。冰淇淋有陈皮、山楂、薏米等口味。有一处信息写 13:00–21:00，去之前在高德确认。地铁上海图书馆站（10号线）。",
+    ),
+    planned: c("Tuesday, after lunch", "星期二午餐后"),
+  },
+  {
+    name: "Soy (Soyfish)",
+    zh: "Soyfish 手卷吧",
+    where: c("Jing'an · second branch on Nanjing Road West", "静安 · 南京西路有第二家店"),
+    note: c(
+      "New York-style fish hand-roll bar: bluefin tuna roll with black truffle, sriracha tuna roll, seafood rice bowl. I could not verify an exact address or hours, so search Soyfish on Dianping before you go.",
+      "纽约风格的鱼生手卷吧：黑松露蓝鳍金枪鱼卷、是拉差金枪鱼卷、海鲜饭。确切地址和营业时间没能核实，去之前在大众点评搜 Soyfish。",
+    ),
+    planned: null,
+  },
+  {
+    name: "Dugout",
+    zh: "Dugout Coffee & Brunch",
+    where: c("19-2 Fuzhou Rd, Huangpu, a block from the Bund", "黄浦区福州路19-2号，离外滩一个街口"),
+    note: c(
+      "Brunch in the old Russell & Co. building, with a view of the Oriental Pearl. Known for the bacon-and-egg soufflé pancake and the tiramisu soufflé. The staff are hearing-impaired and you order by signs. Listed hours vary, from 08:00 or 09:00 opening, so check Dianping. A good swap for a Bund-side morning.",
+      "开在旗昌洋行老楼里的早午餐店，看得到东方明珠。招牌是培根鸡蛋舒芙蕾、提拉米苏舒芙蕾。店员是听障人士，用指示牌点单。营业时间各处写法不一（08:00 或 09:00 开门），去之前查大众点评。适合换掉某个在外滩附近的上午。",
     ),
     planned: null,
   },

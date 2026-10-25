@@ -13,6 +13,7 @@ import {
   phrases,
   redPicks,
   reelPicks,
+  placePicks,
   sources,
   todos,
   tripEnd,
@@ -76,6 +77,7 @@ const ui = {
   },
   reel: { en: "From your reels", zh: "你们的 reel" },
   reels: { en: "Places from your reels", zh: "你们 reel 里的地方" },
+  places: { en: "Places to visit / eat", zh: "想去的地方 / 想吃的店" },
   redPicks: { en: "What Rednote says, in short", zh: "小红书要点" },
   notPlanned: { en: "Not in the plan", zh: "未排入行程" },
   countdown: { en: "days to go", zh: "天后出发" },
@@ -84,8 +86,8 @@ const ui = {
   checkOut: { en: "Check out", zh: "退房" },
   hero: { en: "Shanghai week", zh: "上海一周" },
   heroSub: {
-    en: "22 – 28 October 2026 · four of us, based in Xujiahui",
-    zh: "2026年10月22日至28日 · 一家四口，住徐家汇",
+    en: "22 – 28 October 2026 · six of us, based in Xujiahui",
+    zh: "2026年10月22日至28日 · 一行六人，住徐家汇",
   },
 } satisfies Record<string, Copy>;
 
@@ -888,6 +890,28 @@ export function TripApp() {
               </ul>
             </div>
           ))}
+
+          <div>
+            <h3 className="text-sm font-semibold uppercase tracking-wide text-muted">{t(ui.places)}</h3>
+            <ul className="mt-2 divide-y divide-line rounded-2xl border border-line bg-white/40">
+              {placePicks.map((pick) => (
+                <li key={pick.name} className="px-4 py-3">
+                  <div className="flex items-baseline justify-between gap-3">
+                    <p className="text-[15px] font-semibold">
+                      {pick.name} <span className="font-zh font-normal text-muted">{pick.zh}</span>
+                    </p>
+                    <span
+                      className={`shrink-0 text-xs font-medium ${pick.planned ? "text-river" : "text-cinnabar"}`}
+                    >
+                      {pick.planned ? t(pick.planned) : t(ui.notPlanned)}
+                    </span>
+                  </div>
+                  {pick.where ? <p className="mt-0.5 text-sm text-muted">{t(pick.where)}</p> : null}
+                  <p className="mt-0.5 text-sm leading-relaxed text-ink/85">{t(pick.note)}</p>
+                </li>
+              ))}
+            </ul>
+          </div>
 
           <div>
             <h3 className="text-sm font-semibold uppercase tracking-wide text-muted">{t(ui.reels)}</h3>
