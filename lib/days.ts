@@ -791,15 +791,15 @@ export const days: Day[] = [
     date: "2026-10-25",
     weekday: c("Sunday", "星期日"),
     label: c("Suzhou", "苏州"),
-    title: c("A garden, a museum, a canal street", "一座园林，一座博物馆，一条水巷"),
+    title: c("Gardens in the rain", "雨里看园"),
     area: c("Suzhou · Old City", "苏州 · 古城"),
     summary: c(
-      "The three things Suzhou is known for, cut down to their best parts: the heart of the garden while it is quiet, I.M. Pei's museum next door, then the canal street from a rowboat and tea with pingtan music.",
-      "苏州最出名的三样，只取精华：趁人少看园林最美的中园，再去隔壁贝聿铭设计的博物馆，然后坐摇橹船游水巷，喝茶听评弹。",
+      "Rain in the old town. Covered corridors at Humble Administrator's Garden, then a short umbrella walk on Pingjiang Road. No museums. Bring umbrellas, anti-slip shoes, spare socks, and passports.",
+      "老城的雨天。拙政园走有廊的一段，然后平江路撑伞走一小段。不去博物馆。带伞、防滑鞋、备用袜子和护照。",
     ),
     leave: c("Leave hotel 07:15", "07:15 从酒店出发"),
     back: c("Hotel by about 18:45", "约 18:45 回到酒店"),
-    walking: c("About 2 km, flat, in short pieces", "约 2 公里，平路，分成几小段"),
+    walking: c("Short pieces, under cover when you can", "几小段短程，尽量走在廊子下"),
     stops: [
       {
         time: "07:15",
@@ -807,8 +807,8 @@ export const days: Day[] = [
         title: c("Cab to Hongqiao Railway Station", "打车去虹桥火车站"),
         place: HONGQIAO,
         note: c(
-          "Sunday morning is quicker than Friday. Same routine: staffed passport gate.",
-          "星期日早上比星期五顺。老规矩：走人工通道验护照。",
+          "Sunday morning is quicker than Friday. Same routine: staffed passport gate. Before you leave, pack umbrellas, anti-slip shoes, spare socks, and passports.",
+          "星期日早上比星期五顺。老规矩：走人工通道验护照。出门前带好伞、防滑鞋、备用袜子和护照。",
         ),
         cost: c("25–35 min · about ¥60", "25–35 分钟 · 约 60 元"),
       },
@@ -850,8 +850,8 @@ export const days: Day[] = [
         place: { zh: "拙政园", addr: "苏州市姑苏区东北街178号" },
         photo: "hag",
         note: c(
-          "Laid out in 1509 by a retired Ming official, it is the largest of Suzhou's classical gardens and a World Heritage site. Water covers a third of it.",
-          "1509 年一位退休的明代官员所建，是苏州古典园林里最大的一座，世界文化遗产。水面占了三分之一。",
+          "Walk under the covered corridors. 兰雪堂, then 远香堂, then 香洲, then 留听阁 and 听雨轩. Sit at 听雨轩 while it rains. Skip wet rockeries and steep steps.",
+          "走有廊的路。兰雪堂，然后远香堂，然后香洲，然后留听阁和听雨轩。下雨就在听雨轩坐。湿的假山和陡台阶不走。",
         ),
         cost: c("¥80 in October", "十月旺季 80 元"),
         book: "garden",
@@ -861,12 +861,12 @@ export const days: Day[] = [
             "一辈子只看一座中国园林的话，说的就是这座。每扇窗、每道门都是为了框出一幅景。",
           ),
           worth: c(
-            "Do the central garden only, about 600 m on the flat: Distant Fragrance Hall, the Little Flying Rainbow covered bridge, and the view to the North Temple Pagoda. Ask at the gate about a free wheelchair loan.",
-            "只走中园，平路约 600 米：远香堂、小飞虹廊桥、借景北寺塔。可以在门口问免费借轮椅。",
+            "This is the long stop, and the walking stays light. Ask at the gate about a free wheelchair loan. Wear anti-slip shoes.",
+            "这一站待得最久，步子放轻。门口可以问免费借轮椅。穿防滑鞋。",
           ),
           avoid: c(
-            "Trying to cover all three sections. The full loop is over 2 km. Also skip the three-wheeler touts outside, who change the price at the other end.",
-            "别想把东中西三个园都走完，全程超过两公里。门口拉客的三轮车也别坐，到了地方会改价。",
+            "Wet rockeries and steep steps. Do not go into a museum. Walk past the building beside the gate.",
+            "湿的假山和陡台阶不走。不要进博物馆。园门口旁边那栋馆，从门口走过。",
           ),
         },
         red: {
@@ -894,58 +894,14 @@ export const days: Day[] = [
         ],
       },
       {
-        time: "11:00",
-        kind: "see",
-        title: c("Suzhou Museum", "苏州博物馆"),
-        place: { zh: "苏州博物馆(本馆)", addr: "苏州市姑苏区东北街204号" },
-        photo: "szm",
-        note: c(
-          "300 m from the garden gate. Designed by I.M. Pei, whose family came from Suzhou, and opened in 2006 when he was 89.",
-          "离拙政园门口 300 米。贝聿铭设计，他祖籍苏州，2006 年开馆时他已 89 岁。",
-        ),
-        cost: c("Free · 09:00–17:00 · closed Mon", "免费 · 09:00–17:00 · 周一闭馆"),
-        book: "museum",
-        guide: {
-          why: c(
-            "The building is the exhibit: white walls, grey lines and light, a modern answer to the garden you just left.",
-            "建筑本身就是展品：白墙、灰线、光影，是对刚看完的园林的现代回应。",
-          ),
-          worth: c(
-            "The rock landscape across the pond from the main hall and the lotus-shaped celadon bowl. It is compact and level, with benches, and wheelchairs are lent free at the entrance.",
-            "大厅对面隔水的片石假山、秘色瓷莲花碗。馆不大，都是平地，有长椅，入口可免费借轮椅。",
-          ),
-          avoid: c(
-            "Turning up without a reservation. There are no walk-in tickets, and Sunday slots go within hours of release.",
-            "别没预约就去。现场不发票，星期日的名额放出后几小时就没了。",
-          ),
-        },
-        red: {
-          q: "苏州博物馆 预约 攻略",
-          more: [
-            c(
-              "Tickets release at 08:00 seven days ahead. People who got them used the Alipay mini program, entered everyone's details the night before, and were already on the page at 07:59.",
-              "提前 7 天早上 08:00 放票。抢到的人用的是支付宝小程序，前一晚把所有人的信息填好，07:59 就停在页面上。",
-            ),
-            c(
-              "Morning slots go first. Several people only got 16:00. If that happens, do the garden, lunch and Pingjiang Road first and finish here.",
-              "上午时段最先没。好几个人只抢到 16:00。那样的话先逛园林、吃午饭、游平江路，最后来这里。",
-            ),
-            c(
-              "If you miss out, do not buy from resellers. Tickets are tied to passports. Keep checking for returns, and use the Lion Grove Garden next door as the stand-in.",
-              "没抢到别找黄牛，票是实名的。继续刷退票，用隔壁的狮子林顶上。",
-            ),
-          ],
-        },
-      },
-      {
         time: "12:30",
         kind: "eat",
         title: c("Lunch: Song He Lou", "午餐：松鹤楼"),
         place: { zh: "松鹤楼(观前街店)", addr: "苏州市姑苏区太监弄72号" },
         photo: "squirrel",
         note: c(
-          "Suzhou's best-known restaurant name, trading since the 1700s on the lane off Guanqian Street.",
-          "苏州最响的老字号，18 世纪起就开在观前街旁的巷子里。",
+          "Suzhou's best-known restaurant name, trading since the 1700s on the lane off Guanqian Street. Stay indoors. Do not turn lunch into another walk in the rain.",
+          "苏州最响的老字号，18 世纪起就开在观前街旁的巷子里。在室内吃。不要把午饭走成雨里的另一段路。",
         ),
         cost: c("Cab 10 min · about ¥150 per person", "打车 10 分钟 · 人均约 150 元"),
         book: "songhelou",
@@ -985,31 +941,34 @@ export const days: Day[] = [
       },
       {
         time: "14:15",
-        kind: "boat",
-        title: c("Pingjiang Road, by rowboat", "坐摇橹船游平江路"),
-        place: { zh: "平江路 游船码头", addr: "苏州市姑苏区平江路 白塔东路口" },
+        kind: "walk",
+        title: c("Pingjiang Road, a short stretch", "平江路，只走一小段"),
+        place: { zh: "平江路", addr: "苏州市姑苏区平江路 白塔东路口" },
         photo: "pingjiang",
         note: c(
-          "A lane beside a canal that still follows the street plan carved on a stone map of the city in 1229. Hand-rowed wooden boats carry up to six along it, so the family sees the street sitting down, together.",
-          "沿河的老街，走向和 1229 年石刻《平江图》上的一样。手摇木船一条坐六人，全家坐着一起看这条街。",
+          "Umbrellas up for a short walk along the canal. The street still follows the plan carved on a stone map of the city in 1229. When the rain gets heavy, stop under a roof for tea or pingtan. If everyone is soaked, skip the rest of the street and go back to the train.",
+          "撑伞，沿河走一小段。这条街的走向还和 1229 年石刻《平江图》一样。雨大了就进屋喝茶，或听评弹。如果大家都湿了，剩下的街不走，回去赶火车。",
         ),
-        cost: c("Cab 10 min from lunch · boat about ¥150–200 for the boat, 25 min", "从餐厅打车 10 分钟 · 整船约 150–200 元，25 分钟"),
+        cost: c("Cab 10 min from lunch", "从餐厅打车 10 分钟"),
         guide: {
           why: c(
-            "Suzhou was built on canals. From the boat you pass under the stone bridges and past the back doors of the houses, which you never see from the lane.",
-            "苏州是建在水上的城。坐船从石桥下穿过，看到人家临水的后门，在街上是看不到的。",
+            "Suzhou was built on canals. A short stretch shows the stone bridges and the doors that face the water.",
+            "苏州是建在水上的城。走一小段就能看到石桥，和人家临水的门。",
           ),
-          worth: c("Some boatmen sing a Suzhou folk song if you ask.", "有的船娘会唱苏州小调，可以请她唱一段。"),
+          worth: c(
+            "A short hop, not the whole street. Tea or pingtan under a roof if it pours.",
+            "只走一小段，不把整条街走完。雨大了就进屋喝茶或听评弹。",
+          ),
           avoid: c(
-            "Walking the full 1.6 km lane. After the boat, the teahouse is a short stroll from the pier.",
-            "别把一公里六的街走完。下船后走一小段就到茶馆。",
+            "Walking the full 1.6 km lane. Lion Grove Garden is a wet climb, so leave it. If anyone is tired, skip Couple's Garden and go to the station.",
+            "别把一公里六的街走完。狮子林的假山是湿的，要爬，不去。有人累了就跳过耦园，直接去车站。",
           ),
         },
         red: {
-          q: "平江路 摇橹船 评弹",
+          q: "平江路 雨天 评弹",
           tip: c(
-            "A 4,300-like post calls this the thing to do before leaving Suzhou. Its order: sweet soup at a canal-side teahouse, the rowboat, then pingtan. It warns the boat queue builds late in the afternoon, so ride first.",
-            "一篇 4300 赞的笔记说这是离开苏州前一定要做的事。顺序是：河边茶馆吃糖水、坐手摇船、听评弹。它提醒下午晚些时候坐船要排队，所以先坐船。",
+            "Today is the short umbrella walk, not the rowboat. When it pours, tea or pingtan under a roof comes first.",
+            "今天是撑伞走一小段，不坐摇橹船。雨大了就先进屋喝茶或听评弹。",
           ),
           more: [
             c(
@@ -1060,6 +1019,25 @@ export const days: Day[] = [
         },
       },
       {
+        time: "15:50",
+        kind: "see",
+        optional: true,
+        title: c("Couple's Garden, only if energy holds", "耦园，只在还有力气时"),
+        place: { zh: "耦园", addr: "苏州市姑苏区仓街小新桥巷6号" },
+        note: c(
+          "A second garden, close to Pingjiang Road. Go only if the walk still feels easy. October tickets are ¥25 on the 苏州园林 account or at the gate. Be in the cab at 16:15 for the 17:00 train.",
+          "第二座园子，靠近平江路。步子还轻松才去。十月门票 25 元，在「苏州园林」上买，或在门口买。16:15 要上车，赶上 17:00 的火车。",
+        ),
+        cost: c("¥25 in October · a short look", "十月 25 元 · 只看一小会儿"),
+        guide: {
+          worth: c("Skip it if anyone is tired or soaked.", "有人累了或湿透了，就直接跳过。"),
+          avoid: c(
+            "Do not trade this for Lion Grove Garden. The rockeries there are a wet climb.",
+            "不要改去狮子林。那边的假山是湿的，要爬。",
+          ),
+        },
+      },
+      {
         time: "16:15",
         kind: "cab",
         title: c("Cab to Suzhou station", "打车回苏州站"),
@@ -1085,8 +1063,8 @@ export const days: Day[] = [
     ],
     tips: [
       c(
-        "The museum reservation opens exactly 7 days ahead. Set an alarm for Sunday 18 October.",
-        "博物馆提前 7 天放票。10月18日星期日记得设闹钟。",
+        "No museums today. If the rain turns heavy, skip Couple's Garden and the rest of Pingjiang Road and take the 17:00 train.",
+        "今天不去博物馆。雨要是变大，耦园和平江路剩下的一段都不去，坐 17:00 的火车回。",
       ),
       c(
         "Good things to carry home from Guanqian Street: fresh meat mooncakes from Chang Fa, and Cai Zhi Zhai sweets.",
@@ -1094,10 +1072,10 @@ export const days: Day[] = [
       ),
     ],
     planB: {
-      title: c("If the museum slot is gone", "如果没约到博物馆"),
+      title: c("If the rain is too heavy", "如果雨太大"),
       body: c(
-        "Add the Lion Grove Garden (¥40, between the garden and the museum) instead. Or change the whole day to Jinji Lake: Suzhou Museum of Contemporary Art, opened August 2026, with lunch inside. For that version take the train to Suzhou Industrial Park station.",
-        "改去狮子林（40 元，就在拙政园和博物馆之间）。或整天改去金鸡湖：2026 年 8 月开馆的苏州当代美术馆，馆内吃午饭。那样的话高铁要买到苏州园区站。",
+        "Stay under the covered corridors at Humble Administrator's Garden, eat lunch indoors, then go back to Suzhou station for the train between 17:00 and 17:30. Skip Pingjiang Road and Couple's Garden.",
+        "就在拙政园的廊子里看，午饭在室内吃，然后回苏州站，坐 17:00 到 17:30 之间的火车。平江路和耦园都跳过。",
       ),
     },
   },

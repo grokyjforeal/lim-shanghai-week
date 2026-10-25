@@ -182,16 +182,6 @@ export const todos: Todo[] = [
     href: "https://www.shanghaidisneyresort.com/en/park-calendar/",
   },
   {
-    id: "museum",
-    due: "2026-10-18",
-    urgent: true,
-    title: c("Reserve Suzhou Museum", "预约苏州博物馆"),
-    detail: c(
-      "Free, but the slot for Sun 25 Oct opens exactly 7 days ahead on Sun 18 Oct. Tickets release at 08:00. Rednote posts say the Alipay mini program is faster than WeChat, which makes you wait through a 9-second notice. Fill in all four passports beforehand and be on the page before 08:00. Morning slots vanish in seconds, so take an afternoon slot if 11:00 is gone and we swap the garden and museum order.",
-      "免费，但 10月25日 的名额在 10月18日（提前 7 天）才放出。早上 08:00 放票。小红书上说支付宝小程序比微信快，微信要先看 9 秒提示。提前把四本护照信息填好，08:00 前就停在页面上。上午时段几秒就没，11:00 抢不到就选下午，园林和博物馆的顺序对调即可。",
-    ),
-  },
-  {
     id: "garden",
     due: "2026-10-18",
     title: c("Buy Humble Administrator's Garden tickets", "买拙政园门票"),
